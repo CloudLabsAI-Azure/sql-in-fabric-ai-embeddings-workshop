@@ -1,0 +1,1 @@
+# sql-in-fabric-ai-embeddings-workshop
