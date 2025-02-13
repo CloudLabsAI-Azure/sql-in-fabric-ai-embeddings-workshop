@@ -406,7 +406,7 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![A picture of the code being annotated automatically for you](../media/2025-01-21_2.11.52_PM.png)
 
-# 4. Call REST services from the Azure SQL Database in Microsoft Fabric with External REST Endpoint Invocation
+# 3. Call REST services from the Azure SQL Database in Microsoft Fabric with External REST Endpoint Invocation
 
 ## External REST Endpoint Invocation
 
@@ -600,7 +600,7 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
     select json_value(@response, '$.result[0].text') as "Translation";
     ```
 
-# 5. Creating embeddings for relational data
+# 4. Creating embeddings for relational data
 
 ## Understanding embeddings in Azure OpenAI
 
@@ -951,7 +951,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
 
     ![A picture of running Query 3 and getting results outlined in the Query 3 results table](../media/2025-01-15_6.38.06_AM.png)
 
-# 6. Creating a GraphQL API for RAG applications
+# 5. Creating a GraphQL API for RAG applications
 
 In this section of the lab, you will be deploying a GraphQL API that uses embeddings, vector similarity search, and relational data to return a set of Adventure Works products that could be used by a chat application leveraging a Large Language Model (LLM). In essence, putting all the pieces together in the previous sections.
 
@@ -1339,7 +1339,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     }
     ```
 
-# 7. Creating a Power BI Report from a SQL Database in Microsoft Fabric with Copilot
+# 6. Creating a Power BI Report from a SQL Database in Microsoft Fabric with Copilot
 
 It's easy to quickly create reports in Power BI with SQL database in Fabric using Copilot. 
 
