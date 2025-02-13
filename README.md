@@ -34,3 +34,4 @@ Key Learning Objectives:
 
 - [Workshop Guide](./docs/graphQL_Fabric_AI_workshop.md)
 - [Slides](./docs/aiFabricWorkshop.pdf)
+- [Azure DevOps and SQL Video](./docs/DevOps.mp4)
