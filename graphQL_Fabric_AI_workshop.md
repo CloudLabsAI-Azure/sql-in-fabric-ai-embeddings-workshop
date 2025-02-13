@@ -23,7 +23,7 @@ e **Microsoft Fabric Sign In page** when Edge opens, please navigate to +++https
 
 1. Back on the Microsoft Fabric Database Home Page, click the **New Workspace tile** to open the **Create a workspace blade** on the right side.
 
-    ![A picture of the Microsoft Fabric developer experience Home Page](./media/Screenshot 2025-02-06 at 5.32.38 AM.png)
+    !IMAGE[A picture of the Microsoft Fabric developer experience Home Page](media/Screenshot 2025-02-06 at 5.32.38 AM.png)
 
 1. In the **Create a workspace blade**, 
 
