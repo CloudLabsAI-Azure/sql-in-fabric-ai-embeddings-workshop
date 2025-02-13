@@ -35,3 +35,4 @@ Key Learning Objectives:
 ### Workshop Guide
 
 - [Workshop Guide](./docs/graphQL_Fabric_AI_workshop.md)
+- [Slides](./docs/aiFabricWorkshop.pdf)
