@@ -729,7 +729,7 @@ This next section of the lab will have you alter the Adventure Works product tab
 
 1. Then click the run button on the query sheet
 
-    ![A picture of clicking the run button on the query sheet for adding 2 columns to the product table](./media/2025-01-10_1.30.19_PM.png)
+    ![A picture of clicking the run button on the query sheet for adding 2 columns to the product table](./media/2025-01-10_1.30.19 PM.png)
 
 1. Next, we are going to use the External REST Endpoint Invocation procedure (sp_invoke_external_rest_endpoint) to create a stored procedure that will create embeddings for text we supply as an input. Copy and paste the following code into a blank query editor in Microsoft Fabric:
 
