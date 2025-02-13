@@ -1,6 +1,4 @@
-# Project Name
-
-Build an AI App GraphQL Endpoint with SQL DB in Fabric​
+# Build an AI App GraphQL Endpoint with SQL DB in Fabric​
 
 ## Features
 
