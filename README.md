@@ -1,57 +1,37 @@
 # Project Name
 
-(short, 1-3 sentenced, description of the project)
+Build an AI App GraphQL Endpoint with SQL DB in Fabric​
 
 ## Features
 
-This project framework provides the following features:
+This lab will guide you through creating a set of GraphQL RAG application APIs that use relational data, Azure OpenAI, and SQL DB in Fabric.
 
-* Feature 1
-* Feature 2
-* ...
+Key Learning Objectives:
+- Query and work with data in SQL DB in Microsoft Fabric
+- Build AI application design pattens/endpoints
+- Use AI with relational data
+- Understand how similarity searching benefits queries
+
+### Overview
+
+1. The Azure Fabric Portal and creating a SQL database in Fabric
+1. Working with the SQL Database in Microsoft Fabric
+1. REST in the database
+1. Creating embeddings for relational data with Azure OpenAI
+1. Create a set of GraphQL endpoints for AI Applications
+1. Create a PowerBI report with Copilot
+1. DevOps in Fabric (demo only)
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
+- Fabric Capacity (including SQL Database)
+- Azure OpenAI Service with the following models deployed:
+    - gpt-4
+    - text-embedding-ada-002
+- Azure OpenAI Service endpoint location and auth keys
 
-- OS
-- Library version
-- ...
+### Workshop Guide
 
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+- [Workshop Guide](./docs/graphQL_Fabric_AI_workshop.md)
