@@ -13,9 +13,7 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
 ## Logging into the Microsoft Fabric Portal
 
-1. Using a web browser, please navigate to +++https://app.fabric.microsoft.com/home?experience=fabric-developer+++.
-
-e **Microsoft Fabric Sign In page** when Edge opens, please navigate to +++https://app.fabric.microsoft.com/home?experience=fabric-developer+++ by typing it in the URL or by using the link in the bookmarks bar.
+1. Using a web browser, please navigate to this [Microsoft Fabric link](https://app.fabric.microsoft.com/home?experience=fabric-developer).
 
 # 2. Creating a Workspace and SQL Database
 
@@ -24,6 +22,9 @@ e **Microsoft Fabric Sign In page** when Edge opens, please navigate to +++https
 1. Back on the Microsoft Fabric Database Home Page, click the **New Workspace tile** to open the **Create a workspace blade** on the right side.
 
     ![A picture of the Microsoft Fabric developer experience Home Page](../media/2025-02-06_5.32.38_AM.png)
+
+    <img src="../media/2025-02-06_5.32.38_AM.png" alt="Description" style="width:600px;">
+
 
 1. In the **Create a workspace blade**, 
 
