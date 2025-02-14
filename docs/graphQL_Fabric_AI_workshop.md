@@ -21,94 +21,91 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
 1. Back on the Microsoft Fabric Database Home Page, click the **New Workspace tile** to open the **Create a workspace blade** on the right side.
 
-    ![A picture of the Microsoft Fabric developer experience Home Page](../media/2025-02-06_5.32.38_AM.png)
-
-    <img src="../media/2025-02-06_5.32.38_AM.png" alt="Description" style="width:600px;">
-
+    <img src="../media/2025-02-06_5.32.38_AM.png" alt="A picture of the Microsoft Fabric developer experience Home Page" style="width:600px;">
 
 1. In the **Create a workspace blade**, 
 
-    ![A picture of the Create a workspace blade on the right side of the page](../media/2025-01-10_6.58.17_AM.png)
+    <img src="../media/2025-01-10_6.58.17_AM.png" alt="A picture of the Create a workspace blade on the right side of the page" style="width:600px;">
 
     double check to make sure the cursor is in the **Name** field 
     
-    ![A picture of the cursor in the Name field](../media/2025-01-10_6.57.04_AM.png)
+    <img alt="A picture of the cursor in the Name field" src="../media/2025-01-10_6.57.04_AM.png" style="width:600px;">
     
     and enter a unique name for the **Workspace Name** field.
    
-    ![A picture of using the supplied text as the workspace name in the name field](../media/2025-01-10_6.57.19_AM.png)
+    <img alt="A picture of using the supplied text as the workspace name in the name field" src="../media/2025-01-10_6.57.19_AM.png" style="width:600px;">
 
 1. Next, click the **green Apply button** on the **bottom left** of the Create a workspace blade.
 
-    ![A picture of clicking the **green Apply button** on the **bottom left** of the Create a workspace blade](../media/2025-01-10_6.57.38_AM.png) 
+    <img alt="A picture of clicking the **green Apply button** on the **bottom left** of the Create a workspace blade" src="../media/2025-01-10_6.57.38_AM.png" style="width:600px;"> 
 
 1. On the following page, you may get a popup titled "Introducing task flows (preview)". Click the green **Got it** button.
 
-    ![A picture of clicking the green Got it button to close a feature preview popup](../media/2025-01-10_7.08.43_AM.png)
+    <img alt="A picture of clicking the green Got it button to close a feature preview popup" src="../media/2025-01-10_7.08.43_AM.png" style="width:600px;">
 
 ## Create the Azure SQL Database in Microsoft Fabric
 
 1. On the Microsoft Fabric Workspace page, click the **New item** button on the top right of the page.
 
-    ![A picture of clicking the New item button on the top right of the page](../media/2025-01-10_7.13.23_AM.png)
+    <img alt="A picture of clicking the New item button on the top right of the page" src="../media/2025-01-10_7.13.23_AM.png" style="width:600px;">
 
 1. In the **New item** blade on the right, 
 
-    ![A picture of the new item blade on the right of the page](../media/2025-01-10_7.16.20_AM.png)
+    <img alt="A picture of the new item blade on the right of the page" src="../media/2025-01-10_7.16.20_AM.png" style="width:600px;">
 
     use the **Filter by item type search box** in the upper right
     
-    ![A picture of using the Filter by item type search box in the upper right of the new item blade](../media/2025-01-10_7.18.22_AM.png)
+    <img alt="A picture of using the Filter by item type search box in the upper right of the new item blade" src="../media/2025-01-10_7.18.22_AM.png" style="width:600px;">
     
     to enter **SQL**
 
-    ![A picture of entering SQL into the item type search box](../media/2025-01-10_7.19.01_AM.png)
+    <img alt="A picture of entering SQL into the item type search box" src="../media/2025-01-10_7.19.01_AM.png" style="width:600px;">
 
 1. With the New item results filtered down, click on the **SQL database (preview)** tile.
 
-    ![A picture of clicking on the SQL database (preview) tile](../media/2025-01-10_7.21.40_AM.png)
+    <img alt="A picture of clicking on the SQL database (preview) tile" src="../media/2025-01-10_7.21.40_AM.png" style="width:600px;">
 
 > [!Alert] There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately. 
 
 1. In the **New SQL database** dialog window,
 
-    ![A picture of the New SQL database dialog window](../media/2025-01-10_7.25.02_AM.png)
+    <img alt="A picture of the New SQL database dialog window" src="../media/2025-01-10_7.25.02_AM.png" style="width:600px;">
 
     Use a unique name **to name the database**.
     
-    ![A picture of entering the database name into the New SQL database dialog box](../media/2025-01-10_7.30.31_AM.png)
+    <img alt="A picture of entering the database name into the New SQL database dialog box" src="../media/2025-01-10_7.30.31_AM.png" style="width:600px;">
 
 1. With the database name entered, click the **green Create button**.
 
-    ![A picture of clicking the green Create button in the New SQL database dialog box](../media/2025-01-10_7.30.23_AM.png)
+    <img alt="A picture of clicking the green Create button in the New SQL database dialog box" src="../media/2025-01-10_7.30.23_AM.png" style="width:600px;">
 
 1. Once the database is finished creating, 
 
-    ![A picture of the database creating](../media/2025-01-10_7.30.41_AM.png)
+    <img alt="A picture of the database creating" src="../media/2025-01-10_7.30.41_AM.png" style="width:600px;">
 
     you will be taken to that SQL database's home page where we can see database objects and issue T-SQL statements right in the web browser.
 
-    ![A picture of the SQL database details home page](../media/2025-01-10_7.31.16_AM.png)
+    <img alt="A picture of the SQL database details home page" src="../media/2025-01-10_7.31.16_AM.png" style="width:600px;">
 
 ## Loading the database with sample data
 
 1. We need some sample data in the database to work with. We can easily do this with the **Sample data** tile right on the database home page. Click the **Sample data** tile right on the database home page.
 
-    ![A picture of clicking the Sample data tile right on the database home page](../media/2025-01-10_9.35.42_AM.png)
+    <img alt="A picture of clicking the Sample data tile right on the database home page" src="../media/2025-01-10_9.35.42_AM.png" style="width:600px;">
 
 1. In the upper right corner of the database home page, you will see a notification indicating that the data is being loaded into the database.
 
-    ![A picture of a notification indicating that the data is being loaded into the database](../media/2025-01-10_9.37.17_AM.png)
+    <img alt="A picture of a notification indicating that the data is being loaded into the database" src="../media/2025-01-10_9.37.17_AM.png" style="width:600px;">
 
 1. Allow this process to run (about 30-60 seconds) until you see a notification indicating that the data was successfully loaded into the database appearing again, in the upper right corner.
     
     *Go ahead, check email on your phone...it's ok....*
 
-    ![A picture of a notification indicating that the data was successfully loaded into the database](../media/2025-01-10_9.38.08_AM.png)
+    <img alt="A picture of a notification indicating that the data was successfully loaded into the database" src="../media/2025-01-10_9.38.08_AM.png" style="width:600px;">
 
 1. Also, once the data has finished loading, the middle of home page will change show a **Query, preview, or connect your data** message and image.
 
-    ![A picture of the middle of home page changing to show a Query, preview, or connect your data message and image](../media/2025-02-06_5.41.58_AM.png)
+    <img alt="A picture of the middle of home page changing to show a Query, preview, or connect your data message and image" src="../media/2025-02-06_5.41.58_AM.png" style="width:600px;">
 
 # 3. Working with the Azure SQL Database in Microsoft Fabric
 
@@ -118,47 +115,47 @@ In this next section, we will be using the Database Explorer and SQL Query works
 
 1. To start, look_the **Database Explorer** area on the left of the page. Here, click the dropdown arrow next to the database 
 
-    ![A picture of the Database Explorer area on the left of the SQL database details page](../media/2025-01-10_9.43.09_AM.png)
+    <img alt="A picture of the Database Explorer area on the left of the SQL database details page" src="../media/2025-01-10_9.43.09_AM.png" style="width:600px;">
 
     to see a list of database schemas.
 
-    ![A picture of a list of database schemas in the newly created database](../media/2025-01-10_9.45.41_AM.png)
+    <img alt="A picture of a list of database schemas in the newly created database" src="../media/2025-01-10_9.45.41_AM.png" style="width:600px;">
 
     and you can further expand the **SalesLT** schema to see object types
 
-    ![A picture of expanding the SalesLT schema to see object types](../media/2025-01-10_9.47.35_AM.png)
+    <img alt="A picture of expanding the SalesLT schema to see object types" src="../media/2025-01-10_9.47.35_AM.png" style="width:600px;">
 
     as well as objects in the object type folders.
 
-    ![A picture of expanding the tables folder to see all the tables in the SalesLT database schema](../media/2025-01-10_9.47.50_AM.png)
+    <img alt="A picture of expanding the tables folder to see all the tables in the SalesLT database schema" src="../media/2025-01-10_9.47.50_AM.png" style="width:600px;">
 
 1. If not already done, expand the **SalesLT** schema, followed by expanding the **Tables** folder. Then click on the **Address** table.
 
-    ![A picture of expanding the SalesLT schema, followed by expanding the Tables folder, then clicking on the Address table](../media/2025-01-10_9.50.08_AM.png)
+    <img alt="A picture of expanding the SalesLT schema, followed by expanding the Tables folder, then clicking on the Address table" src="../media/2025-01-10_9.50.08_AM.png" style="width:600px;">
 
 1. You can see in the editor window, a read only **Data preview** of the contents of the Address table.
 
-    ![A picture of a read only data preview of the Address table](../media/2025-01-10_9.50.18_AM.png)
+    <img alt="A picture of a read only data preview of the Address table" src="../media/2025-01-10_9.50.18_AM.png" style="width:600px;">
 
 1. After browsing the data in the Address table, **close** the Data preview by clicking on the **X** next to the **Address Data preview tab**.
 
-    ![A picture of closing the Data preview by clicking on the X next to the Address Data preview tab](../media/2025-01-10_9.54.22_AM.png)
+    <img alt="A picture of closing the Data preview by clicking on the X next to the Address Data preview tab" src="../media/2025-01-10_9.54.22_AM.png" style="width:600px;">
 
 1. Now, click the **New Query** button on the tool bar
     
-    ![A picture of clicking the New Query button on the tool bar](../media/2025-01-10_9.57.20_AM.png)
+    <img alt="A picture of clicking the New Query button on the tool bar" src="../media/2025-01-10_9.57.20_AM.png" style="width:600px;">
 
     to open a new query editor window so we can work directly with the database. 
 
-    ![A picture of opening a new query editor window so one can work directly with the database](../media/2025-01-10_10.00.59_AM.png)
+    <img alt="A picture of opening a new query editor window so one can work directly with the database" src="../media/2025-01-10_10.00.59_AM.png" style="width:600px;">
 
 1. To remove the gray **Copilot Preview Banner**, click the X on the right side.
 
-    ![A picture of removing the gray Copilot Preview Banner by clicking the X on the right side](../media/2025-01-22_9.02.50_AM.png)
+    <img alt="A picture of removing the gray Copilot Preview Banner by clicking the X on the right side" src="../media/2025-01-22_9.02.50_AM.png" style="width:600px;">
 
 1. Once the banner is gone, be sure to click in the SQL editor sheet so that the next step will copy the code to the correct location.
 
-    ![A picture of clicking in the SQL editor sheet so that the next step will copy the code to the correct location](../media/2025-01-10_10.00.59_AMw.png)
+    <img alt="A picture of clicking in the SQL editor sheet so that the next step will copy the code to the correct location" src="../media/2025-01-10_10.00.59_AMw.png)
 
 1. Copy and paste the following code into the query editor:
 
@@ -168,51 +165,51 @@ In this next section, we will be using the Database Explorer and SQL Query works
 
 1. Once the code is in the query editor, **click the Run button**.
 
-    ![A picture of clicking the run button in the query editor](../media/2025-01-10_10.13.01_AM.png)
+    <img alt="A picture of clicking the run button in the query editor" src="../media/2025-01-10_10.13.01_AM.png" style="width:600px;">
 
 1. You will see the **results** of the query on the **bottom of the query editor**.
 
-    ![A picture of the results of the query on the bottom of the query editor](../media/2025-01-10_10.17.25_AM.png)
+    <img alt="A picture of the results of the query on the bottom of the query editor" src="../media/2025-01-10_10.17.25_AM.png" style="width:600px;">
 
 1. Starting on the left side of the **Results area**, there are 3 options for exporting the data.
 
-    ![A picture of the 3 options for exporting the data in the results area](../media/2025-01-27_5.20.34_AM.png)
+    <img alt="A picture of the 3 options for exporting the data in the results area" src="../media/2025-01-27_5.20.34_AM.png" style="width:600px;">
 
 1. From left to right, first is **download results as .xlsx (Excel) file**.
 
-    ![A picture of the download results as .xlsx (Excel) file option](../media/2025-01-27_5.20.47_AM.png)
+    <img alt="A picture of the download results as .xlsx (Excel) file option" src="../media/2025-01-27_5.20.47_AM.png" style="width:600px;">
 
 1. Next, is **download as a .csv file**
 
-    ![A picture of the download as a .csv file option](../media/2025-01-27_5.20.57_AM.png)
+    <img alt="A picture of the download as a .csv file option" src="../media/2025-01-27_5.20.57_AM.png" style="width:600px;">
 
 1. With the last option being **download as a .json file**.
 
-    ![A picture of the download as a .json file option](../media/2025-01-27_5.21.06_AM.png)
+    <img alt="A picture of the download as a .json file option" src="../media/2025-01-27_5.21.06_AM.png" style="width:600px;">
 
 1. And looking_the right side of the results area, you can use the **Copy** button to copy the results in multiple formats.
 
-    ![A picture of using the Copy button to copy the results in multiple formats](../media/2025-01-22_9.38.15_AM.png)
+    <img alt="A picture of using the Copy button to copy the results in multiple formats" src="../media/2025-01-22_9.38.15_AM.png" style="width:600px;">
 
 1. Now, **refresh the browser page** by clicking the refresh icon on the Edge Browser toolbar.
 
-    ![A picture of clicking the refresh icon on the Edge Browser toolbar](../media/2025-02-03_5.45.31_AM.png)
+    <img alt="A picture of clicking the refresh icon on the Edge Browser toolbar" src="../media/2025-02-03_5.45.31_AM.png" style="width:600px;">
 
 1. The query editor you were working with is no longer in the main window
 
-    ![A picture showing the query editor you were working with is no longer in the main window](../media/2025-02-03_5.47.44_AM.png)
+    ![A picture showing the query editor you were working with is no longer in the main window" src="../media/2025-02-03_5.47.44_AM.png" style="width:600px;">
 
     but we can easily bring it back, or any other query editors we have been working with. We can do this by **clicking on the editor sheet name in Explorer** on the left side of the page in the **Queries folder**.
 
-    ![A picture of clicking on the editor sheet name in Explorer on the left side of the page in the Queries folder](../media/2025-02-03_5.49.36_AM.png)
+    <img alt="A picture of clicking on the editor sheet name in Explorer on the left side of the page in the Queries folder" src="../media/2025-02-03_5.49.36_AM.png" style="width:600px;">
 
 1. Also, by **clicking on the 3 dots** next to a query editor sheet name, you can duplicate it, rename it, or delete it.
 
-    ![A picture of clicking on the 3 dots next to a query editor sheet name](../media/2025-02-03_5.52.28_AM.png)
+    <img alt="A picture of clicking on the 3 dots next to a query editor sheet name" src="../media/2025-02-03_5.52.28_AM.png" style="width:600px;">
 
 1. To get ready for the next section, **Delete** any SQL you have in **the query editor** so that it is blank. Do not delete the entire query sheet.
 
-    ![A picture of a blank query editor because all the code was deleted from it](../media/2025-01-30_9.38.23_AM.png)
+    <img alt="A picture of a blank query editor because all the code was deleted from it" src="../media/2025-01-30_9.38.23_AM.png" style="width:600px;">
 
 ## Copilot for the SQL Database in Microsoft Fabric
 
@@ -227,48 +224,48 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
 1. To use **Copilot chat**, click the **Copilot button** on the Database details homepage toolbar.
 
-    ![A picture of clicking the Copilot button on the Database details homepage toolbar](../media/2025-01-22_9.07.30_AM.png)
+    <img alt="A picture of clicking the Copilot button on the Database details homepage toolbar" src="../media/2025-01-22_9.07.30_AM.png" style="width:600px;">
 
 1. On the right side of the page, you will see the **Copilot Chat pane**.
 
-    ![A picture of the Copilot Chat pane](../media/2025-01-21_1.17.36_PM_copy.png)
+    <img alt="A picture of the Copilot Chat pane" src="../media/2025-01-21_1.17.36_PM_copy.png)
 
     click the **green Get started button** on the bottom of the chat pane to continue.
 
-    ![A picture of clicking the green Get started button on the bottom of the chat pane to continue](../media/2025-01-21_1.17.36_PM.png)
+    <img alt="A picture of clicking the green Get started button on the bottom of the chat pane to continue" src="../media/2025-01-21_1.17.36_PM.png" style="width:600px;">
 
 1. Let's use one of the suggested questions that the chat pane has offered us. Click the **Get Insights: Retrieve the total number of tables in my database.** button. This will add the text "Retrieve the total number of tables in my database." in the chat box on the bottom of the Chat Pane.
 
-    ![A picture of clicking the Get Insights: Retrieve the total number of tables in my database suggested query](../media/2025-01-21_1.31.37_PM.png)
+    <img alt="A picture of clicking the Get Insights: Retrieve the total number of tables in my database suggested query" src="../media/2025-01-21_1.31.37_PM.png" style="width:600px;">
 
 1. Once the text is in the chat text box, click the **Arrow/Paper Airplane Icon** on the right of the chat text box.
 
-    ![A picture of clicking the Arrow/Paper Airplane Icon on the right of the chat text box](../media/2025-01-21_1.38.21_PM.png)
+    <img alt="A picture of clicking the Arrow/Paper Airplane Icon on the right of the chat text box" src="../media/2025-01-21_1.38.21_PM.png" style="width:600px;">
 
     and Copilot will start answering the question
 
-    ![A picture of copilot working on the answer with an animated color bar](../media/2025-01-21_1.40.11_PM.png)
+    <img alt="A picture of copilot working on the answer with an animated color bar" src="../media/2025-01-21_1.40.11_PM.png" style="width:600px;">
 
 1. Once the answer is returned by Copilot,
 
-    ![A picture of copilot returning the answer and SQL](../media/2025-01-21_1.42.24_PM.png)
+    <img alt="A picture of copilot returning the answer and SQL" src="../media/2025-01-21_1.42.24_PM.png" style="width:600px;">
 
     you can either **click the copy code button** and paste it into the query editor
 
-    ![A picture of clicking the copy code button and pasting it into the query editor](../media/2025-01-21_1.43.45_PM.png)
+    <img alt="A picture of clicking the copy code button and pasting it into the query editor" src="../media/2025-01-21_1.43.45_PM.png" style="width:600px;">
 
     or click the **insert code button** to have it instantly pasted into the current active query editor sheet.
 
-    ![A picture of clicking the insert code button having it instantly pasted into the current active query editor sheet](../media/2025-01-21_1.45.33_PM.png)
+    <img alt="A picture of clicking the insert code button having it instantly pasted into the current active query editor sheet" src="../media/2025-01-21_1.45.33_PM.png" style="width:600px;">
 
 1. Once the code is copied into the query editor, you **click the run button** it to see the results.
 
-    ![A picture of clicking the run button in the query editor](../media/2025-01-21_1.47.02_PM.png)
+    <img alt="A picture of clicking the run button in the query editor" src="../media/2025-01-21_1.47.02_PM.png" style="width:600px;">
 
 1. Try the following question suggestions in the chat pane and see the results. Feel free to run the SQL it provides from the answers or just move on to the next question:
 
     > [!IMPORTANT] Copilot for SQL database in Microsoft Fabric is in **preview** and you may encounter unexpected results. If so, try the question again or move on to the next question.
-    > ![A picture of Copilot for SQL database encountering unexpected results](../media/2025-01-30_9.43.24_AM.png) 
+    > <img alt="A picture of Copilot for SQL database encountering unexpected results" src="../media/2025-01-30_9.43.24_AM.png" style="width:600px;"> 
 
     ##### **Performance and Database Questions**
 
@@ -276,13 +273,13 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
     What table is using the most space?
     ```
 
-    ![A picture of asking copilot what is the biggest table in my database](../media/2025-01-22_9.13.42_AM.png)
+    <img alt="A picture of asking copilot what is the biggest table in my database" src="../media/2025-01-22_9.13.42_AM.png" style="width:600px;">
 
     ```Question
     Are there any poorly performing indexes?
     ```
 
-    ![A picture of asking copilot Are there any poorly performing indexes](../media/2025-01-22_9.13.55_AM.png)
+    <img alt="A picture of asking copilot Are there any poorly performing indexes" src="../media/2025-01-22_9.13.55_AM.png" style="width:600px;">
 
     ##### **Object Manipulation Questions**
 
@@ -290,13 +287,13 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
     Help me create a table to store AI chat history and code to insert some sample rows?
     ```
 
-    ![A picture of asking copilot to Help me create a table to store AI chat history and code to insert some sample rows](../media/2025-01-22_9.14.15_AM.png)
+    <img alt="A picture of asking copilot to Help me create a table to store AI chat history and code to insert some sample rows" src="../media/2025-01-22_9.14.15_AM.png" style="width:600px;">
 
     ```
     Help me alter the Address table to add a Subdivision column.
     ```
 
-    ![A picture of asking copilot to Help me alter the Address table to add a Subdivision column](../media/2025-01-22_9.14.29_AM.png)
+    <img alt="A picture of asking copilot to Help me alter the Address table to add a Subdivision column" src="../media/2025-01-22_9.14.29_AM.png" style="width:600px;">
 
     ##### **Documentation Questions**
 
@@ -304,17 +301,17 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
     What is an append only ledger table?
     ```
 
-    ![A picture of asking copilot What is an append only ledger table](../media/2025-01-22_9.14.42_AM.png)
+    <img alt="A picture of asking copilot What is an append only ledger table" src="../media/2025-01-22_9.14.42_AM.png" style="width:600px;">
 
     ```Question
     Does SQL in fabric support CLR?
     ```
 
-    ![A picture of asking copilot Does SQL in fabric support CLR](../media/2025-01-22_9.14.58_AM.png)
+    <img alt="A picture of asking copilot Does SQL in fabric support CLR" src="../media/2025-01-22_9.14.58_AM.png" style="width:600px;">
 
 1. When done with the questions, you can **close the Copilot for SQL chat window** using the **X on the top right**.
 
-    ![A picture of closing the Copilot for SQL chat window** using the X on the top right](../media/2025-02-06_5.57.10_AM.png)
+    <img alt="A picture of closing the Copilot for SQL chat window** using the X on the top right" src="../media/2025-02-06_5.57.10_AM.png" style="width:600px;">
 
 ### SQL Editor and Quick Actions
 
@@ -331,27 +328,27 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
     -- list the top 5 colors of products
     ```
 
-    ![A picture of pasting -- list the top 5 colors of products into the query editor](../media/2025-01-21_1.52.07_PM.png)
+    <img alt="A picture of pasting -- list the top 5 colors of products into the query editor" src="../media/2025-01-21_1.52.07_PM.png" style="width:600px;">
 
 1. Then **press enter/return_the end of the line of text** in the query editor. On the bottom of the query editor, you should see that **"Copilot is working on it..."***
 
-    ![A picture of pressing enter/return_the end of the line of text you just pasted in](../media/2025-01-21_1.53.27_PM.png)
+    <img alt="A picture of pressing enter/return_the end of the line of text you just pasted in" src="../media/2025-01-21_1.53.27_PM.png" style="width:600px;">
 
 1. Back in the query editor, you should see the code Copilot generated for you
 
-    ![A picture of code Copilot generated](../media/2025-01-21_1.53.43_PM.png)
+    <img alt="A picture of code Copilot generated" src="../media/2025-01-21_1.53.43_PM.png" style="width:600px;">
 
 1. You can press tab to accept the code or hover over the code with your mouse and click accept.
 
-    ![A picture of pressing tab to accept the code or hovering over the code with your mouse and clicking accept](../media/2025-01-21_1.53.58_PM.png)
+    <img alt="A picture of pressing tab to accept the code or hovering over the code with your mouse and clicking accept" src="../media/2025-01-21_1.53.58_PM.png" style="width:600px;">
 
 1. Once you accept the code, the color will change indicating the code has been accepted
 
-    ![A picture of the color changing indicating the code has been accepted](../media/2025-01-21_1.54.12_PM.png)
+    <img alt="A picture of the color changing indicating the code has been accepted" src="../media/2025-01-21_1.54.12_PM.png" style="width:600px;">
 
     and you can run it with the run button in the query editor to see the results.
 
-    ![A picture of running the code with the run button in the query editor to see the results](../media/2025-01-21_1.59.52_PM.png)
+    <img alt="A picture of running the code with the run button in the query editor to see the results" src="../media/2025-01-21_1.59.52_PM.png" style="width:600px;">
 
 1. In an **empty query editor sheet**, try this example (remember to press return/enter after putting the statement in the query editor):
 
@@ -383,29 +380,29 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
 1. Now, delete the **5 after the word TOP in the first line of code**. 
 
-    ![A picture showing the 5 deleted in the query](../media/2025-02-06_5.53.26_AM.png)
+    ![A picture showing the 5 deleted in the query" src="../media/2025-02-06_5.53.26_AM.png" style="width:600px;">
 
     Then use the run button to execute the SQL query.
 
 1. You should get an error on the bottom of the page in the messages pane stating "Msg 102, Level 15, State 1, Line 4, Incorrect syntax near 'C'."
 
-    ![A picture of an error on the bottom of the page in the messages pane stating Msg 102, Level 15, State 1, Line 4, Incorrect syntax near C](../media/2025-02-06_5.55.18_AM.png)
+    <img alt="A picture of an error on the bottom of the page in the messages pane stating Msg 102, Level 15, State 1, Line 4, Incorrect syntax near C" src="../media/2025-02-06_5.55.18_AM.png" style="width:600px;">
 
 1. Back on the query editor toolbar. click the **Fix query errors** button.
 
-    ![A picture of clicking the Fix query errors button](../media/2025-01-21_2.05.02_PM.png)
+    <img alt="A picture of clicking the Fix query errors button" src="../media/2025-01-21_2.05.02_PM.png" style="width:600px;">
 
 1. You will see that it added back the 5 and notated the error with how it fixed it.
 
-    ![A picture of the query being fixed and an annotation on what it did](../media/2025-01-21_2.07.02_PM.png)
+    <img alt="A picture of the query being fixed and an annotation on what it did" src="../media/2025-01-21_2.07.02_PM.png" style="width:600px;">
 
 1. Next, click the **Explain query button** on the query editor toolbar.
 
-    ![A picture of clicking the Explain query button on the query editor toolbar](../media/2025-01-21_2.08.56_PM.png)
+    <img alt="A picture of clicking the Explain query button on the query editor toolbar" src="../media/2025-01-21_2.08.56_PM.png" style="width:600px;">
 
 1. This option annotates your code for you adding comments outlining the purpose/function of each section.
 
-    ![A picture of the code being annotated automatically for you](../media/2025-01-21_2.11.52_PM.png)
+    <img alt="A picture of the code being annotated automatically for you" src="../media/2025-01-21_2.11.52_PM.png" style="width:600px;">
 
 # 3. Call REST services from the Azure SQL Database in Microsoft Fabric with External REST Endpoint Invocation
 
@@ -452,7 +449,7 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
 1. Then click the run button on the query sheet
 
-    ![A picture of clicking the run button on the query sheet](../media/2025-01-10_11.16.00_AM.png)
+    <img alt="A picture of clicking the run button on the query sheet" src="../media/2025-01-10_11.16.00_AM.png" style="width:600px;">
 
     The master key will be set, and the database scoped credential will be created.
 
@@ -479,7 +476,7 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
 1. Click the run button on the query sheet. The result will be an amazing joke you can tell your friends and family!
 
-    ![A picture of running the T-SQL to create a llama bar joke](../media/2025-01-10_11.20.25_AM.png)
+    <img alt="A picture of running the T-SQL to create a llama bar joke" src="../media/2025-01-10_11.20.25_AM.png" style="width:600px;">
 
     **Question:** tell me a joke about a llama walking into a bar.
     
@@ -633,7 +630,7 @@ Embeddings created and stored in the Azure SQL Database in Microsoft Fabric duri
 
 1. Again, click the run button on the query sheet. The result will be a JSON vector array.
 
-    ![A picture of the JSON vector array as a result of the query](../media/2025-01-10_11.25.57_AM.png)
+    <img alt="A picture of the JSON vector array as a result of the query" src="../media/2025-01-10_11.25.57_AM.png" style="width:600px;">
 
     Using the built in JSON function json_query, we are able to extract JSON array from REST response payloads. In the above T-SQL, **json_query(@response, '$.result.data[0].embedding') as "JSON Vector Array"** will extract the vector array from the result payload returned to us from the Azure OpenAI REST endpoint. 
     
@@ -719,7 +716,7 @@ This next section of the lab will have you alter the Adventure Works product tab
 
 1. Then click the run button on the query sheet
 
-    ![A picture of clicking the run button on the query sheet for adding 2 columns to the product table](../media/2025-01-10_1.30.19 PM.png)
+    <img alt="A picture of clicking the run button on the query sheet for adding 2 columns to the product table" src="../media/2025-01-10_1.30.19 PM.png" style="width:600px;">
 
 1. Next, we are going to use the External REST Endpoint Invocation procedure (sp_invoke_external_rest_endpoint) to create a stored procedure that will create embeddings for text we supply as an input. Copy and paste the following code into a blank query editor in Microsoft Fabric:
 
@@ -849,7 +846,7 @@ This next section of the lab will have you alter the Adventure Works product tab
 
     You can see that the chunk column is the combination of multiple data points about a product and the embeddings column contains the vector arrays.
 
-    ![A picture of the query result showing the chunk and embeddings columns and their data.](../media/2025-01-15_6.34.32_AM.png)
+    <img alt="A picture of the query result showing the chunk and embeddings columns and their data." src="../media/2025-01-15_6.34.32_AM.png" style="width:600px;">
 
 ## Vector similarity searching
 
@@ -893,7 +890,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
     | 759 | Road-650 Red, 58 | Road-650 Red, 58 Red Road Bikes Road-650 Value-priced bike with many features of our top-of-the-line models. Has the same light, stiff frame, and the quick acceleration we're famous for. | 0.16432339626539993 |
     | 762 | Road-650 Red, 44 | Road-650 Red, 44 Red Road Bikes Road-650 Value-priced bike with many features of our top-of-the-line models. Has the same light, stiff frame, and the quick acceleration we're famous for. | 0.1652894865541471 |
 
-    ![A picture of running Query 1 and getting results outlined in the Query 1 results table.](../media/2025-01-15_6.36.01_AM.png)
+    <img alt="A picture of running Query 1 and getting results outlined in the Query 1 results table." src="../media/2025-01-15_6.36.01_AM.png" style="width:600px;">
 
 1. The next search will be looking for a safe lightweight helmet. Run the following SQL in a blank query editor in Microsoft Fabric:
 
@@ -922,7 +919,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
     | Classic Vest, S | Classic Vest, S Blue Vests Classic Vest Light-weight, wind-resistant, packs to fit into a pocket. | 0.19888204151269384 |
 
 
-    ![A picture of running Query 2 and getting results outlined in the Query 2 results table](../media/2025-01-14_6.00.32_AM.png)
+    <img alt="A picture of running Query 2 and getting results outlined in the Query 2 results table" src="../media/2025-01-14_6.00.32_AM.png" style="width:600px;">
 
 1. In the previous 2 examples, we were clear on what we were looking for; cheap red bike, light helmet. In this next example, we are going to have the search flex its AI muscles a bit by saying we want a bike seat that needs to be good on trails. This will require the search to look for adjacent values that have something in common with trails. Run the following SQL in a blank query editor in Microsoft Fabric to see the results.
 
@@ -950,7 +947,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
     | ML Road Seat/Saddle | ML Road Seat/Saddle No Color Saddles ML Road Seat/Saddle 2 Rubber bumpers absorb bumps. | 0.18802953111711573 |
     | HL Mountain Seat/Saddle | HL Mountain Seat/Saddle No Color Saddles HL Mountain Seat/Saddle 2 Anatomic design for a full-day of riding in comfort. Durable leather. | 0.18931317298732764 |
 
-    ![A picture of running Query 3 and getting results outlined in the Query 3 results table](../media/2025-01-15_6.38.06_AM.png)
+    <img alt="A picture of running Query 3 and getting results outlined in the Query 3 results table" src="../media/2025-01-15_6.38.06_AM.png" style="width:600px;">
 
 # 5. Creating a GraphQL API for RAG applications
 
@@ -1031,47 +1028,47 @@ In the section of the lab, you will create a stored procedure that will be used 
     exec find_products_api 'I am looking for a red bike'
     ```
 
-    ![A picture of running the find_products_api stored procedure](../media/2025-01-14_6.57.09_AM.png)
+    <img alt="A picture of running the find_products_api stored procedure" src="../media/2025-01-14_6.57.09_AM.png" style="width:600px;">
 
 1. To create the GraphQL API, click on the **New API for GraphQL** button on the toolbar.
 
-    ![A picture of clicking on the New API for GraphQL button on the toolbar](../media/2025-01-15_6.52.37_AM.png)
+    <img alt="A picture of clicking on the New API for GraphQL button on the toolbar" src="../media/2025-01-15_6.52.37_AM.png" style="width:600px;">
 
 1. In the **New API for GraphQL** dialog box, use the **Name Field** and name the API **find_products_api**.
 
     +++find_products_api+++
 
-    ![A picture of using the Name Field and naming the API find_products_api in the New API for GraphQL dialog box](../media/2025-01-17_7.35.03_AM.png)
+    <img alt="A picture of using the Name Field and naming the API find_products_api in the New API for GraphQL dialog box" src="../media/2025-01-17_7.35.03_AM.png" style="width:600px;">
 
 1. After naming the API, click the **green Create button**.
 
-    ![A picture of clicking the green Create button in the New API for GraphQL dialog box](../media/2025-01-17_7.35.09_AM.png)
+    <img alt="A picture of clicking the green Create button in the New API for GraphQL dialog box" src="../media/2025-01-17_7.35.09_AM.png" style="width:600px;">
 
 1.  The next dialog box presented is the **Choose data** dialog box where you will pick a table or stored procedure for the GraphQL API, 
 
-    ![A picture of the next dialog box being presented, the Choose data dialog box](../media/2025-01-15_7.00.42_AM.png)
+    <img alt="A picture of the next dialog box being presented, the Choose data dialog box" src="../media/2025-01-15_7.00.42_AM.png" style="width:600px;">
 
     use the **Search box** in the **Explorer section** on the left 
     
-    ![A picture of using the Search box in the Explorer section on the left of the Choose data dialog box](../media/2025-01-15_7.01.39_AM.png)
+    <img alt="A picture of using the Search box in the Explorer section on the left of the Choose data dialog box" src="../media/2025-01-15_7.01.39_AM.png" style="width:600px;">
 
     and **enter in find_products_api**.
 
     +++find_products_api+++
 
-    ![A picture of enter in find_products_api in the search box](../media/2025-01-17_6.26.15_AM.png)
+    <img alt="A picture of enter in find_products_api in the search box" src="../media/2025-01-17_6.26.15_AM.png" style="width:600px;">
 
 1. Choose the **find_products_api stored procedure in the results**. You can ensure it is the find_products_api stored procedure by hovering over it with your mouse/pointer. It will also indicate the selected database item in the preview section. It should state **"Preview data: dbo.find_products_api"**.
 
-    ![A picture of choosing the find_products_api stored procedure in the results](../media/2025-01-17_6.28.44_AM_copy.png)
+    <img alt="A picture of choosing the find_products_api stored procedure in the results" src="../media/2025-01-17_6.28.44_AM_copy.png)
 
 1. Once you have selected the **find_products_api stored procedure**, click the **green Load button** on the bottom right of the modal dialog box.
 
-    ![A picture of clicking the green Load button on the bottom right of the modal dialog box](../media/2025-01-17_6.30.18_AM.png)
+    <img alt="A picture of clicking the green Load button on the bottom right of the modal dialog box" src="../media/2025-01-17_6.30.18_AM.png" style="width:600px;">
 
 1. You will now be on the **GraphQL Query editor page**. Here, we can run GraphQL queries similar to how we can run T-SQL queries on the query editor.
 
-    ![A picture of the GraphQL Query editor page](../media/2025-01-15_7.11.21_AM.png)
+    <img alt="A picture of the GraphQL Query editor page" src="../media/2025-01-15_7.11.21_AM.png" style="width:600px;">
 
 1. Replace the sample code on the left side of the GraphQL query editor with the following query:
 
@@ -1090,27 +1087,27 @@ In the section of the lab, you will create a stored procedure that will be used 
     }
     ```
 
-    ![A picture of replacing the example code with the query code provided](../media/2025-01-15_7.16.57_AM.png)
+    <img alt="A picture of replacing the example code with the query code provided" src="../media/2025-01-15_7.16.57_AM.png" style="width:600px;">
 
 1. Now, click the **Run button** in the upper left of the GraphQL query editor. 
 
-    ![A picture of clicking the Run button in the upper left of the GraphQL query editor](../media/2025-01-15_7.19.13_AM.png)
+    <img alt="A picture of clicking the Run button in the upper left of the GraphQL query editor" src="../media/2025-01-15_7.19.13_AM.png" style="width:600px;">
 
     and you can scroll through the results from the GraphQL query in the lower section of the editor.
 
-    ![A picture of scrolling through the results from the GraphQL query in the lower section of the editor](../media/2025-01-15_7.21.01_AM.png)
+    <img alt="A picture of scrolling through the results from the GraphQL query in the lower section of the editor" src="../media/2025-01-15_7.21.01_AM.png" style="width:600px;">
 
 1. Back on the toolbar, find and click the **Generate code button**.
 
-    ![A picture of clicking the Generate code button](../media/2025-01-15_8.38.00_AM.png)
+    <img alt="A picture of clicking the Generate code button" src="../media/2025-01-15_8.38.00_AM.png" style="width:600px;">
 
 1. This feature will generate the code for calling this API via python or node.js to help give you a jumpstart in the application creation process.
 
-    ![A picture of the generated code the editor provides](../media/2025-01-15_8.40.12_AM.png)
+    <img alt="A picture of the generated code the editor provides" src="../media/2025-01-15_8.40.12_AM.png" style="width:600px;">
 
 1. When done looking_the python and node.js code, click the **X** in the upper right corner to close the Generate code dialog box.
 
-    ![A picture of clicking the X in the upper right corner to close the Generate code dialog box](../media/2025-01-15_8.40.12_AM2.png)
+    <img alt="A picture of clicking the X in the upper right corner to close the Generate code dialog box" src="../media/2025-01-15_8.40.12_AM2.png)
 
 ## Adding chat completion to the GraphQL API
 
@@ -1120,7 +1117,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
 1. Before we can start creating new stored procedures, we need to go back to the SQL Database home page. Do this by using the navigator on the left side of the page and clicking on the SQL Database icon.
 
-    ![A picture of using the navigator on the left side of the page and clicking on the SQL Database icon](../media/2025-01-17_8.44.26_AM.png)
+    <img alt="A picture of using the navigator on the left side of the page and clicking on the SQL Database icon" src="../media/2025-01-17_8.44.26_AM.png" style="width:600px;">
 
 1. The first step in augmenting our RAG application API is to create a stored procedure that takes the retrieved products and passes them in a prompt to an Azure OpenAI Chat Completion REST endpoint (this is the same endpoint that was used to ask the llama joke). The prompt consists of telling the endpoint who they are, what products they have to work with, and the exact question that was asked by the user. 
 
@@ -1268,47 +1265,47 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     with the answer being similar to (your answer will be different): **"It sounds like the Road-650 Red, 62 Red Road Bikes Road-650 would be an excellent choice for you. This value-priced bike comes in red and features a light, stiff frame that is known for its quick acceleration. It also incorporates many features from top-of-the-line models. Would you like more details about this bike or help with anything else?"**
 
-    ![A picture of running the find_products_chat_api stored procedure](../media/2025-01-17_6.15.05_AM.png)
+    <img alt="A picture of running the find_products_chat_api stored procedure" src="../media/2025-01-17_6.15.05_AM.png" style="width:600px;">
 
 1. To create the GraphQL API, click on the **New API for GraphQL** button on the toolbar just as you did previously.
 
-    ![A picture of clicking on the New API for GraphQL button on the toolbar](../media/2025-01-15_6.52.37_AM.png)
+    <img alt="A picture of clicking on the New API for GraphQL button on the toolbar" src="../media/2025-01-15_6.52.37_AM.png" style="width:600px;">
 
 1. In the **New API for GraphQL** dialog box, use the **Name Field** and name the API **find_products_chat_api**.
 
     +++find_products_chat_api+++
 
-    ![A picture of using the Name Field and naming the API find_products_chat_api in the New API for GraphQL dialog box](../media/2025-01-17_7.34.39_AM.png)
+    <img alt="A picture of using the Name Field and naming the API find_products_chat_api in the New API for GraphQL dialog box" src="../media/2025-01-17_7.34.39_AM.png" style="width:600px;">
 
 1. After naming the API, click the **green Create button**.
 
-    ![A picture of clicking the green Create button in the New API for GraphQL dialog box](../media/2025-01-17_7.34.47_AM.png)
+    <img alt="A picture of clicking the green Create button in the New API for GraphQL dialog box" src="../media/2025-01-17_7.34.47_AM.png" style="width:600px;">
 
 1.  The next dialog box presented is again the **Choose data** dialog box where you will pick a table or stored procedure for the GraphQL API, 
 
-    ![A picture of the next dialog box being presented, the Choose data dialog box](../media/2025-01-15_7.00.42_AM.png)
+    <img alt="A picture of the next dialog box being presented, the Choose data dialog box" src="../media/2025-01-15_7.00.42_AM.png" style="width:600px;">
 
     use the **Search box** in the **Explorer section** on the left 
     
-    ![A picture of using the Search box in the Explorer section on the left of the Choose data dialog box](../media/2025-01-15_7.01.39_AM.png)
+    <img alt="A picture of using the Search box in the Explorer section on the left of the Choose data dialog box" src="../media/2025-01-15_7.01.39_AM.png" style="width:600px;">
 
     and **enter in find_products_chat_api**.
 
     +++find_products_chat_api+++
 
-    ![ picture of enter in find_products_chat_api in the search box](../media/2025-01-17_6.24.33_AM.png)
+    ![ picture of enter in find_products_chat_api in the search box" src="../media/2025-01-17_6.24.33_AM.png" style="width:600px;">
 
 1. Choose the stored procedure in the results. You can ensure it is the **find_products_chat_api stored procedure** by hovering over it with your mouse/pointer. It will also indicate the selected database item in the preview section. It should state **"Preview data: dbo.find_products_chat_api"**.
 
-    ![A picture of choosing the find_products_chat_api stored procedure in the results](../media/2025-01-17_6.34.33_AM.png)
+    <img alt="A picture of choosing the find_products_chat_api stored procedure in the results" src="../media/2025-01-17_6.34.33_AM.png" style="width:600px;">
 
 1. Once you have selected the **find_products_chat_api stored procedure**, click the **green Load button** on the bottom right of the modal dialog box.
 
-    ![A picture of clicking the green Load button on the bottom right of the modal dialog box](../media/2025-01-17_6.32.43_AM.png)
+    <img alt="A picture of clicking the green Load button on the bottom right of the modal dialog box" src="../media/2025-01-17_6.32.43_AM.png" style="width:600px;">
 
 1. You will now be back on the **GraphQL Query editor page**.
 
-    ![A picture of the GraphQL Query editor page](../media/2025-01-15_7.11.21_AM.png)
+    <img alt="A picture of the GraphQL Query editor page" src="../media/2025-01-15_7.11.21_AM.png" style="width:600px;">
 
 1. Replace the sample code on the left side of the GraphQL query editor with the following query:
 
@@ -1320,15 +1317,15 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     }
     ```
 
-    ![A picture of replacing the sample code on the left side of the GraphQL query editor with the supplied code](../media/2025-01-17_6.40.03_AM.png)
+    <img alt="A picture of replacing the sample code on the left side of the GraphQL query editor with the supplied code" src="../media/2025-01-17_6.40.03_AM.png" style="width:600px;">
 
 1. Now, **click the Run button** in the upper left of the GraphQL query editor.
 
-    ![A picture of clicking the Run button in the upper left of the GraphQL query editor](../media/2025-01-17_6.37.51_AM.png)    
+    <img alt="A picture of clicking the Run button in the upper left of the GraphQL query editor" src="../media/2025-01-17_6.37.51_AM.png" style="width:600px;">    
 
 1. And you can review the response in the **Results** section of the editor
 
-    ![A picture of reviewing the response in the Results section of the editor](../media/2025-01-17_6.41.24_AM.png)
+    <img alt="A picture of reviewing the response in the Results section of the editor" src="../media/2025-01-17_6.41.24_AM.png" style="width:600px;">
 
 1. Try it again with the following code and see what answer the chat completion endpoint provides!
 
@@ -1348,28 +1345,28 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
 1. Using the navigator on the left side of the Microsoft Fabric page, **click the tile for your database**. It will be named **sqlDatabase followed by a set of numbers**.
 
-    ![A picture of using the navigator on the left side of the Microsoft Fabric page to click the tile for the database](../media/2025-01-23_5.35.24_AM.png)
+    <img alt="A picture of using the navigator on the left side of the Microsoft Fabric page to click the tile for the database" src="../media/2025-01-23_5.35.24_AM.png" style="width:600px;">
 
 1. Now on the database details page, find the **SQL database dropdown** in the upper right of the page.
 
-    ![A picture of finding the SQL database dropdown in the upper right of the page](../media/2025-01-23_5.37.48_AM.png)
+    <img alt="A picture of finding the SQL database dropdown in the upper right of the page" src="../media/2025-01-23_5.37.48_AM.png" style="width:600px;">
 
 1. Click the SQL database dropdown and select **SQL analytics endpoint**.
 
-    ![A picture of clicking the SQL database dropdown and selecting SQL analytics endpoint](../media/2025-01-23_5.42.43_AM.png)
+    <img alt="A picture of clicking the SQL database dropdown and selecting SQL analytics endpoint" src="../media/2025-01-23_5.42.43_AM.png" style="width:600px;">
 
     > [!IMPORTANT] You can also get to the SQL analytics endpoint by clicking on your workspace tile, and selecting the SQL analytics endpoint on the bottom of the page.
     >
     
-    ![A picture of clicking on your workspace tile, and selecting the SQL analytics endpoint on the bottom of the page](../media/2025-01-23_5.32.27_AM.png)
+    <img alt="A picture of clicking on your workspace tile, and selecting the SQL analytics endpoint on the bottom of the page" src="../media/2025-01-23_5.32.27_AM.png" style="width:600px;">
 
 1. On the SQL database analytics endpoint details page, **click the Reporting tab** from the ribbon.
 
-    ![A picture of clicking the Reporting tab from the ribbon on the SQL database analytics endpoint details page](../media/2025-01-23_5.57.06_AM.png)
+    <img alt="A picture of clicking the Reporting tab from the ribbon on the SQL database analytics endpoint details page" src="../media/2025-01-23_5.57.06_AM.png" style="width:600px;">
 
 1. Now, click the **New Report** button.
 
-    ![A picture of clicking the New Report button](../media/2025-01-23_5.59.30_AM.png)
+    <img alt="A picture of clicking the New Report button" src="../media/2025-01-23_5.59.30_AM.png" style="width:600px;">
 
 1. When the **New report with all available data modal window** opens, click the **green Continue button** to create a new report with all available data.
 
@@ -1379,58 +1376,58 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
     >
     >Close the dialog box and reopen it. Then, click the green Continue button again.
 
-    ![A picture of clicking the green Continue button to create a new report in the New report with all available data modal window](../media/2025-01-23_6.02.14_AM.png)
+    <img alt="A picture of clicking the green Continue button to create a new report in the New report with all available data modal window" src="../media/2025-01-23_6.02.14_AM.png" style="width:600px;">
 
 1. The **Upgrade to a paid Power BI license modal window** is next. Simply **click the white Try free button**.
 
-    ![A picture of clicking the white Try free button in the Upgrade to a paid Power BI license modal window](../media/2025-02-03_5.57.05_AM.png)
+    <img alt="A picture of clicking the white Try free button in the Upgrade to a paid Power BI license modal window" src="../media/2025-02-03_5.57.05_AM.png" style="width:600px;">
     
 1. And confirm the free license on the following model by **clicking the green Got it button**.
 
-    ![A picture of clicking the green Got it button on the following model](../media/2025-02-03_5.57.16_AM.png)
+    <img alt="A picture of clicking the green Got it button on the following model" src="../media/2025-02-03_5.57.16_AM.png" style="width:600px;">
 
 1. Once the new report opens in Power BI, click the **Try it** button in the **green callout box for Copilot**.
 
-    ![A picture of clicking the Try it button in the **green callout box for Copilot](../media/2025-01-23_6.04.57_AM.png)
+    <img alt="A picture of clicking the Try it button in the **green callout box for Copilot" src="../media/2025-01-23_6.04.57_AM.png" style="width:600px;">
 
 1. On the **right side** of the page, the **Copilot blade** opens.
 
-    ![A picture of copilot blade on the right side of the page](../media/2025-01-23_6.09.03_AM.png)
+    <img alt="A picture of copilot blade on the right side of the page" src="../media/2025-01-23_6.09.03_AM.png" style="width:600px;">
 
     Click the **green Get started button**.
 
-    ![A picture of clicking the green Get started button in the copilot blade](../media/2025-01-23_6.10.53_AM.png)
+    <img alt="A picture of clicking the green Get started button in the copilot blade" src="../media/2025-01-23_6.10.53_AM.png" style="width:600px;">
 
 1. Copilot presents some questions to get you started. Click **Suggest content for a new report page**.
 
-    ![A picture of clicking Suggest content for a new report page in the copilot blade](../media/2025-01-23_6.12.34_AM.png)
+    <img alt="A picture of clicking Suggest content for a new report page in the copilot blade" src="../media/2025-01-23_6.12.34_AM.png" style="width:600px;">
 
 1. Suggested outlines for your report are returned by Copilot based on the data it has access to in the analytics endpoint. 
 
     > [!IMPORTANT] The suggested reports returned by Copilot may differ from the following images.
 
-    ![A picture of suggested outlines for a report returned by Copilot based on the data it has access to in the analytics endpoint](../media/2025-01-23_6.15.10_AM.png)
+    <img alt="A picture of suggested outlines for a report returned by Copilot based on the data it has access to in the analytics endpoint" src="../media/2025-01-23_6.15.10_AM.png" style="width:600px;">
 
 1. You can review the selections by **expanding their cards** to see a quick description about the report.
 
-    ![A picture of expanding report suggestion cards to see a quick description about the report](../media/2025-01-23_6.23.27_AM.png)
+    <img alt="A picture of expanding report suggestion cards to see a quick description about the report" src="../media/2025-01-23_6.23.27_AM.png" style="width:600px;">
 
 1. Click the **Create button** for the **Sales Order Details** report **or any other report** you would like to create. Go wild!
 
-    ![A picture of clicking the Create button for the Sales Order Details report](../media/2025-01-23_6.28.51_AM.png)
+    <img alt="A picture of clicking the Create button for the Sales Order Details report" src="../media/2025-01-23_6.28.51_AM.png" style="width:600px;">
 
 1. Copilot will then begin **creating your report**.
 
-    ![A picture of copilot creating a Power BI report](../media/2025-02-06_6.25.53_AM.png)
+    <img alt="A picture of copilot creating a Power BI report" src="../media/2025-02-06_6.25.53_AM.png" style="width:600px;">
 
 1. You now have a Power BI report of your SQL database data!
 
-    ![A picture of the copilot generated power bi report](../media/2025-02-06_6.29.04_AM.png)
+    <img alt="A picture of the copilot generated power bi report" src="../media/2025-02-06_6.29.04_AM.png" style="width:600px;">
 
 1. **Minimize the blades** 
 
-    ![A picture of minimizing the blades to make the report larger](../media/2025-01-23_6.30.37_AM.png)
+    <img alt="A picture of minimizing the blades to make the report larger" src="../media/2025-01-23_6.30.37_AM.png" style="width:600px;">
 
     to expand the size of the report.
 
-    ![A picture of a Power BI report with the blades minimized](../media/2025-01-23_6.30.51_AM.png)
+    <img alt="A picture of a Power BI report with the blades minimized" src="../media/2025-01-23_6.30.51_AM.png" style="width:600px;">
