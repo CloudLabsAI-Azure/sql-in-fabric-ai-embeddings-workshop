@@ -10,7 +10,7 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
     ![](../images/01.png)
 
-1. Click on the **Profile icon (1)** at the top right corner and absorve that **Licence type: Free account** has been provided with 60-day free trial.
+1. Click on the **Profile icon (1)** at the top right corner and absorve that **Licence type: Free account (2)** has been provided with 60-day free trial.
 
     ![](../images/02-1.png)
 
@@ -98,7 +98,9 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
     ![](../images/ex1-19.png)
 
+### Summary
 
+In this lab, you learned how to create a workspace, create SQL database, and load sample data in SQL database.These steps gave you hands-on experience in setting up Workspace and SQL Database using Microsoft Fabric.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
