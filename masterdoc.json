@@ -1,0 +1,30 @@
+[
+    {
+      "Name": "Build an AI App with SQL DB in Fabric ",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop",
+      "Files": [
+              {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop/refs/heads/main/docs/gettingstarted.md",
+          "Order": 0
+        },  
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop/refs/heads/main/docs/exercise1.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop/refs/heads/main/docs/exercise2.md",
+          "Order": 2
+        },
+        {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop/refs/heads/main/docs/exercise3.md",
+           "Order": 3
+        },
+        {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/sql-in-fabric-ai-embeddings-workshop/refs/heads/main/docs/exercise4.md",
+           "Order": 4
+        }                
+
+      ]
+    }
+  ]
