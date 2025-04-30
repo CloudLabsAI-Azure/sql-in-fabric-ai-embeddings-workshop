@@ -94,6 +94,7 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
     ```
 
     The expected output is as below.
+    
     ![](../images/ex4-5.png)
 
 1. To create the GraphQL API, click on the **New API for GraphQL** button on the toolbar.
@@ -185,8 +186,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     Using an empty query sheet in Microsoft Fabric, copy and paste the following code:
 
-
-    ```SQL
+     ```SQL
     CREATE OR ALTER PROCEDURE [dbo].[prompt_answer]
     @user_question nvarchar(max),
     @products nvarchar(max),
@@ -225,7 +225,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     select json_value(@response, '$.result.choices[0].message.content');
 
     GO
-    ```
+     ```
 
 1. Select the **Environment** tab beside your lab guide, copy only **Openaiendpoint (1)**.
 
@@ -273,7 +273,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 1. Copy and run the following SQL in a blank query editor in Microsoft Fabric:
 
 
-    ```SQL
+     ```SQL
     create or alter procedure [dbo].[find_products_chat]
     @text nvarchar(max),
     @top int = 3,
@@ -324,7 +324,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     exec [dbo].[prompt_answer] @text, @products_json, @answer output;
 
     GO
-    ```
+     ```
 
 1. Click on **Run** button on the query sheet.
 
@@ -337,19 +337,19 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 1. The last step before we can create a new GraphQL endpoint is to wrap the new find products stored procedure. Copy and run the following SQL in a blank query editor in Microsoft Fabric:
 
 
-    ```SQL
-    create or alter procedure [find_products_chat_api]
-        @text nvarchar(max)
-        as 
-        exec find_products_chat @text
-        with RESULT SETS
-        (    
-            (    
-                answer NVARCHAR(max)
-            )
-        )
-    GO
-    ```
+     ```SQL
+     create or alter procedure [find_products_chat_api]
+         @text nvarchar(max)
+         as 
+         exec find_products_chat @text
+         with RESULT SETS
+         (    
+             (    
+                 answer NVARCHAR(max)
+             )
+         )
+     GO
+     ```
 1. Click on **Run** button on the query sheet.
 
     ![](../images/ex4-35.png)
@@ -373,7 +373,6 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     ![](../images/ex4-6.png)
 
 1. In the **New API for GraphQL** dialog box, use the **Name Field** and name the API `find_products_chat_api`.
-
 
     ![](../images/ex4-38.png)
 
