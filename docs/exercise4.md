@@ -1,8 +1,6 @@
-# Exercise 4: Creating a GraphQL API for RAG applications
+# Exercise 4: Building an AI-Powered Product Search System with GraphQL, Vector Embeddings, and Azure OpenAI
 
-In this section of the lab, you will be deploying a GraphQL API that uses embeddings, vector similarity search, and relational data to return a set of Adventure Works products that could be used by a chat application leveraging a Large Language Model (LLM). In essence, putting all the pieces together in the previous sections.
-
-In the section of the lab, you will create a stored procedure that will be used by the GraphQL API for taking in questions and returning products.
+In this section of the lab, you will be deploying a GraphQL API that uses embeddings, vector similarity search, and relational data to return a set of Adventure Works products that could be used by a chat application leveraging a Large Language Model (LLM). In essence, putting all the pieces together in the previous sections. You will create a stored procedure that will be used by the GraphQL API for taking in questions and returning products.
 
 ## Task 1: Creating the stored procedure used by the GraphQL API
 
@@ -518,6 +516,6 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
 ### Summary
 
-In this lab, you explored on Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.Also, you learned using copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
+In this lab, you created a GraphQL API for RAG (Retrieval-Augmented Generation) applications by leveraging Microsoft Fabric's SQL capabilities with vector embeddings. You first built a stored procedure to perform vector similarity search on Adventure Works products, then wrapped it in a GraphQL endpoint to enable application integration. You later enhanced this solution by adding Azure OpenAI's chat completion functionality, creating a more sophisticated endpoint that not only retrieves relevant products but also formulates natural language responses to customer queries. The exercise concluded with creating a Power BI report using Copilot, demonstrating how the same database can be used for both AI-powered search and business intelligence reporting. This lab showcases how to combine vector search, relational data, and LLMs to build practical AI applications for product search and recommendation.
 
 ### You have successfully completed the lab!!
