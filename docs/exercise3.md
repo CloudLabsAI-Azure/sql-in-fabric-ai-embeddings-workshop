@@ -1,11 +1,11 @@
-# Exercise 3: Call REST services from the Azure SQL Database in Microsoft Fabric with External REST Endpoint Invocation
+# Exercise 3: External REST Endpoint Integration and Vector-Based Semantic Search in Azure SQL Database
 
 Azure SQL Database External REST Endpoint Invocation provides the ability to call REST endpoints from other Azure services such as OpenAI, Azure Event Hub, Azure Functions, Power BI and more. Common use cases for developers to use External REST Endpoint Invocation are:
 
-* Utilize Azure OpenAI services such as chat, embeddings, language, and content safety
-* Ability to push business logic out of the database and into Azure Functions
-* Pull/push data to/from external sources (including Azure Blob Storage) for ETL or derived data stores
-* Participate in event-based architectures with Azure Event Hub or Kafka
+- Utilize Azure OpenAI services such as chat, embeddings, language, and content safety
+- Ability to push business logic out of the database and into Azure Functions
+- Pull/push data to/from external sources (including Azure Blob Storage) for ETL or derived data stores
+- Participate in event-based architectures with Azure Event Hub or Kafka
 
 External REST Endpoint Invocation can be called in an Azure SQL Database using the sp_invoke_external_rest_endpoint stored procedure.
 
@@ -13,9 +13,7 @@ External REST Endpoint Invocation can be called in an Azure SQL Database using t
 
 In this first section, you will test the External REST Endpoint Invocation (EREI) feature of the database to ensure you have connectivity to other Azure services by asking ChatGPT for a joke. This section will also create a database scoped credential. A database scoped credential is a record in the database that contains authentication information for connecting to a resource outside the database. For this lab, we will be creating one that contains the api key for connecting to Azure OpenAI services.
 
-### Using T-SQL to check connectivity to Azure OpenAI and creating database scoped credentials
-
-#### Chat Completion
+### Task 1.1: Chat Completion
 
 1. Back in the query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
 
@@ -47,7 +45,7 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
     ![](../images/ex3-1.png)
 
-1. Click on **Run** button.
+1. Click on **Run** button on the query sheet.
 
     ![](../images/ex3-3.png)
 
@@ -87,9 +85,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
     ![](../images/ex3-6.png)
 
-1. Next, we can use AI Translation and Content Safety.
+1. Next, we use AI Content Safety.
 
-#### AI Content Safety
+### Task 1.2: AI Content Safety
 
 1. Back in the query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
 
@@ -180,7 +178,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
       ![](../images/ex3-10.png)  
 
-#### AI Translation
+1. Next, we use AI Translation.
+
+### Task 1.3: AI Translation
 
 1. Now, lets try the Translation service. Copy and paste the following code into a blank query editor in Microsoft Fabric:
 
@@ -273,13 +273,13 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
 ## Task 2: Creating embeddings for relational data
 
-### Understanding embeddings in Azure OpenAI
+### Task 2.1: Understanding embeddings in Azure OpenAI
 
 An embedding is a special format of data representation that machine learning models and algorithms can easily use. The embedding is an information dense representation of the semantic meaning of a piece of text. Each embedding is a vector of floating-point numbers. Vector embeddings can help with semantic search by capturing the semantic similarity between terms. For example, "cat" and "kitty" have similar meanings, even though they are spelled differently. 
 
 Embeddings created and stored in the Azure SQL Database in Microsoft Fabric during this lab will power a vector similarity search in a chat app you will build.
 
-### The Azure OpenAI embeddings endpoint
+### Task 2.2: The Azure OpenAI embeddings endpoint
 
 1. Using an empty query sheet in Microsoft Fabric, copy and paste the following code. This code calls an Azure OpenAI embeddings endpoint. The result will be a JSON array of vectors.
 
@@ -310,11 +310,11 @@ Embeddings created and stored in the Azure SQL Database in Microsoft Fabric duri
 
     ![](../images/ex3-23.png)
 
-Using the built in JSON function json_query, we are able to extract JSON array from REST response payloads. In the above T-SQL, **json_query(@response, '$.result.data[0].embedding') as "JSON Vector Array"** will extract the vector array from the result payload returned to us from the Azure OpenAI REST endpoint. 
+1. Using the built in JSON function json_query, we are able to extract JSON array from REST response payloads. In the above T-SQL, **json_query(@response, '$.result.data[0].embedding') as "JSON Vector Array"** will extract the vector array from the result payload returned to us from the Azure OpenAI REST endpoint. 
     
-For reference, the JSON response message from the Azure OpenAI embeddings endpoint will look similar to the following and, you can see how we extract the array found_**$.result.data[0].embedding**.
+    For reference, the JSON response message from the Azure OpenAI embeddings endpoint will look similar to the following and, you can see how we extract the array found_**$.result.data[0].embedding**.
 
-> Note: **This code is for reference only, do not use it as SQL query** 
+    > Note: **This code is for reference only, do not use it as SQL query** 
 
 
    ```JSON-Nocopy
@@ -377,10 +377,10 @@ For reference, the JSON response message from the Azure OpenAI embeddings endpoi
     }
    ```
 
-This JSON vector array can now be used with new vector datatype and functions in the Azure SQL database such as VECTOR_DISTANCE. 
+    This JSON vector array can now be used with new vector datatype and functions in the Azure SQL database such as VECTOR_DISTANCE. 
 
 
-### Preparing the database and creating embeddings
+### Task 2.3: Preparing the database and creating embeddings
 
 This next section of the lab will have you alter the Adventure Works product table to add a new vector datatype column. You will then use a stored procedure to create embeddings for the products and store the vector arrays in that column.
 
@@ -646,7 +646,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
 
 ### Summary
 
-In this lab, you explored on Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.Also, you learned using copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
+In this lab, you explored how to integrate Azure SQL Database with AI services using External REST Endpoint Invocation within Microsoft Fabric. You connected to Azure OpenAI for content generation, Content Safety for text analysis, and Translation services for language conversion. The core focus was implementing vector embeddings in the Adventure Works product database using Azure OpenAI, then performing semantic searches with the VECTOR_DISTANCE function to intelligently match natural language queries with relevant products. This exercise demonstrated how to leverage AI capabilities directly within your database environment, enabling sophisticated applications like RAG chatbots without moving data outside the database.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
