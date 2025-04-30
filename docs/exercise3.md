@@ -213,17 +213,16 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 1. We can now try the translation services using a product description from the sample database data we just loaded. Copy and paste the following code into a blank query editor in Microsoft Fabric:
 
     ```SQL
-    declare @url nvarchar(4000) = N'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=es';
-    declare @message nvarchar(max);    
-    SET @message = (select top 1 [Description] from [SalesLT].[ProductDescription] where ProductDescriptionID = 457);
-    print @message;
+     declare @url nvarchar(4000) = N'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=es';
+     declare @message nvarchar(max);    
+     SET @message = (select top 1 [Description] from [SalesLT].[ProductDescription] where ProductDescriptionID = 457);
+     print @message;
 
+     set @message = replace(@message, '"', '\"');
+     declare @payload nvarchar(max) = N'[{"Text": "'+ @message +'"}]';    
+     declare @ret int, @response nvarchar(max);
 
-    set @message = replace(@message, '"', '\"');
-    declare @payload nvarchar(max) = N'[{"Text": "'+ @message +'"}]';    
-    declare @ret int, @response nvarchar(max);
-
-    exec @ret = sp_invoke_external_rest_endpoint
+     exec @ret = sp_invoke_external_rest_endpoint
          @url = @url,
          @method = 'POST',
          @payload = @payload,
@@ -231,9 +230,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
          @timeout = 230,
          @response = @response output;
 
-    print @response;
-    select json_value(D.[value], '$.text') as [Translation]
-    from openjson(@response, '$.result[0].translations') as D;
+     print @response;
+     select json_value(D.[value], '$.text') as [Translation]
+     from openjson(@response, '$.result[0].translations') as D;
     ```
 
 1. Then click the **Run** button on the query sheet.
