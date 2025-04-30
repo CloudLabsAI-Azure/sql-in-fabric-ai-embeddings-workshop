@@ -1,6 +1,6 @@
-# Exercise 1: Creating a Workspace and SQL Database
+# Exercise 1: Creating a Fabric Workspace and SQL Database
 
-In this section of the workshop, you will be logging into the Microsoft Fabric Portal, creating a new Fabric Workspace and create SQL Database.
+In this section of the workshop, you will be logging into the Microsoft Fabric Portal, creating a new Fabric Workspace, create SQL Database, and loading sample data in SQL database.
 
 ## Task 1: Create the Microsoft Fabric Workspace
 
@@ -10,7 +10,7 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
     ![](../images/01.png)
 
-1. Click on the **Profile icon (1)** at the top right corner and absorve that **Licence type: Free account (2)** has been provided with 60-day free trial.
+1. Click on the **Profile icon (1)** at the top right corner and notice that **Licence type: Free account (2)** has been provided with 60-day free trial.
 
     ![](../images/02-1.png)
 
