@@ -92,35 +92,37 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 ![](../images/labzoom-1.png)
 
-## Let's Get Started with Azure Portal
+## Let's Get Started with Power BI Portal
+ 
+1. On the Lab VM, open **Microsoft Edge** from the desktop. In a new tab, navigate to **Microsoft Fabric** by copying and pasting the following URL into the address bar:
 
-1. In the JumpVM, click on **Azure portal** shortcut of Microsoft Edge browser which is created on desktop.
+   ```
+   https://app.fabric.microsoft.com/home
+   ```
 
-    ![](../images/open-azure-portal.png)
+2. On the **Enter your email, we'll check if you need to create a new account** tab you will see the login screen, in that enter the following email/username, and click on **Submit**.
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+     ![alt text](image.png)
+ 
+3. Now enter the following password and click on **Sign in**.
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+     ![alt text](image-1.png)
+     
+1. If you see the pop-up **Stay Signed in?**, select **No**.
 
-1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
+   ![alt text](image-2.png)
 
-    - Email/Username: <inject key="AzureAdUserEmail"></inject>
+1. You will be navigated to the **Microsoft** **Fabric Home page**.
 
-        ![](../images/image-006.png)
+    ![alt text](image-3.png)
 
-1. Now, enter the following password and click on **Sign in**.
+1. On Welcome to the Fabric view dialog opens, click **Cancel**.
 
-    - Password: <inject key="AzureAdUserPassword"></inject> 
-
-        ![](../images/image-005.png)
-
-        > Note: If you see the Action Required dialog box, then select Ask Later option.
-
-1. If you see the pop-up Stay Signed in?, click No.
-
-    ![](../images/Sign-in-no.png)
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the Lab.
-
-1. If a Welcome to Microsoft Azure pop-up window appears, click **Cancel** to skip the tour.
-
-    ![](../images/Azure-cancel-tour.png)
+    ![alt text](image-4.png)
 
 ## Support Contact
 

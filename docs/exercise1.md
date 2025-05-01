@@ -4,37 +4,19 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
 ## Task 1: Create the Microsoft Fabric Workspace
 
-1. Using a web browser, please navigate to this [Microsoft Fabric link](https://app.fabric.microsoft.com/home?experience=fabric-developer).
-
-1. A **Welcome to the fabric view** dialog box will appear, click on **Cancel**.
-
-    ![](../images/01.png)
-
-1. Click on the **Profile icon (1)** at the top right corner and notice that **Licence type: Free account (2)** has been provided with 60-day free trial.
-
-    ![](../images/02-1.png)
-
-1. click the **New Workspace** to open the **Create a workspace blade** on the right side.
+1. On the **Microsoft Fabric Home** page, click **+ New workspace** to create a new workspace.
 
     ![](../images/ex1-1.png)
 
-1. **Create a workspace blade** will be opened in right side of window. 
+3. Enter the workspace name as **FabricWorkspace<inject key="DeploymentID"></inject>**, then click or expand **Advanced** to assign the license mode for the Fabric workload.
 
-    ![](../images/ex1-2.png)
+    ![](../images/png6.png)
 
-    Double check to make sure the cursor is in the **Name** field.
+4. Choose **Fabric capacity** and select the available Capacity from the dropdown list then click **Apply**. 
 
-    ![](../images/ex1-3.png)
+    ![](../images/png7.png)
 
-1. Provide the name as **FabricWorkspace<inject key="DeploymentID"></inject>**
-
-    ![](../images/ex1-4.png)
-
-1. Next, click the green **Apply** button on the **bottom left** of the Create a workspace blade.
-
-    ![](../images/ex1-5.png)
-
-1. On the following page, you may get a popup titled **Introducing task flows (preview)**. Click the green **Got it** button.
+    > **Note:** If a task flows preview feature notification appears, click **Got it** to proceed. 
 
     ![](../images/ex1-6.png)
 
