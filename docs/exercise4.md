@@ -1,6 +1,6 @@
 # Exercise 4: Building an AI-Powered Product Search System with GraphQL, Vector Embeddings, and Azure OpenAI
 
-In this section of the lab, you will be deploying a GraphQL API that uses embeddings, vector similarity search, and relational data to return a set of Adventure Works products that could be used by a chat application leveraging a Large Language Model (LLM). In essence, putting all the pieces together in the previous sections. You will create a stored procedure that will be used by the GraphQL API for taking in questions and returning products.
+In this exercise, you will deploy a GraphQL API that combines embeddings, vector similarity search, and relational data to return relevant Adventure Works products for a chat application using a Large Language Model (LLM). You will create a stored procedure to handle questions and return product results via the GraphQL API.
 
 ## Task 1: Creating the stored procedure used by the GraphQL API
 
