@@ -96,21 +96,21 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 1. In the JumpVM, click on **Azure portal** shortcut of Microsoft Edge browser which is created on desktop.
 
-![](../images/open-azure-portal.png)
+    ![](../images/open-azure-portal.png)
 
 1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
     - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-    ![](../images/image-006.png)
+        ![](../images/image-006.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
     - Password: <inject key="AzureAdUserPassword"></inject> 
 
-    ![](../images/image-005.png)
+        ![](../images/image-005.png)
 
-    > Note: If you see the Action Required dialog box, then select Ask Later option.
+        > Note: If you see the Action Required dialog box, then select Ask Later option.
 
 1. If you see the pop-up Stay Signed in?, click No.
 
