@@ -6,7 +6,6 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
 This task guides you through navigating the database schema, previewing table data, running SQL queries, and working with query results in Azure SQL Database.
 
-
 1. In the **Database Explorer** pane on the left, click the dropdown arrow next to **SqlDatabase<inject key="DeploymentID"></inject>** to expand the database.
 
     ![](../images/ex2-1.png)
@@ -207,7 +206,7 @@ In this task, you’ll explore how to use **Copilot in the SQL query editor** wi
 
     ![](../images/ex2-39.png)
 
-1. After typing the comment, **press Enter (or Return)** to move to a new line. At the bottom of the query editor, you should see the message:  **"Copilot is working on it..."**
+1. After typing the comment, **press Enter (or Return)** to move to a new line. At the bottom of the query editor, you should see the message: **Copilot is working on it...**
 
     ![](../images/ex2-40.png)
 

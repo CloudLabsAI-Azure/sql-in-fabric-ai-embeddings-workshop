@@ -11,7 +11,7 @@ External REST Endpoint Invocation can be called in an Azure SQL Database using t
 
 ## Task 1: Getting started with REST in the Azure SQL Database
 
-In this first section, you will test the External REST Endpoint Invocation (EREI) feature of the database to ensure you have connectivity to other Azure services by asking ChatGPT for a joke. This section will also create a database-scoped credential. A database-scoped credential is a record in the database that contains authentication information for connecting to a resource outside the database. For this lab, we will be creating one that contains the api key for connecting to Azure OpenAI services.
+In this exercise, you will test the External REST Endpoint Invocation (EREI) feature of the database to ensure you have connectivity to other Azure services by asking ChatGPT for a joke. This section will also create a database-scoped credential. A database-scoped credential is a record in the database that contains authentication information for connecting to a resource outside the database. For this lab, we will be creating one that contains the api key for connecting to Azure OpenAI services.
 
 ### Task 1.1: Chat Completion
 
@@ -214,26 +214,26 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 1. We can now try the translation services using a product description from the sample database data we just loaded. Copy and paste the following code into a blank query editor in Microsoft Fabric:
 
     ```SQL
-     declare @url nvarchar(4000) = N'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=es';
-     declare @message nvarchar(max);    
-     SET @message = (select top 1 [Description] from [SalesLT].[ProductDescription] where ProductDescriptionID = 457);
-     print @message;
+    declare @url nvarchar(4000) = N'https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=en&to=es';
+    declare @message nvarchar(max);    
+    SET @message = (select top 1 [Description] from [SalesLT].[ProductDescription] where ProductDescriptionID = 457);
+    print @message;
 
-     set @message = replace(@message, '"', '\"');
-     declare @payload nvarchar(max) = N'[{"Text": "'+ @message +'"}]';    
-     declare @ret int, @response nvarchar(max);
+    set @message = replace(@message, '"', '\"');
+    declare @payload nvarchar(max) = N'[{"Text": "'+ @message +'"}]';    
+    declare @ret int, @response nvarchar(max);
 
-     exec @ret = sp_invoke_external_rest_endpoint
-         @url = @url,
-         @method = 'POST',
-         @payload = @payload,
-         @credential = [https://api.cognitive.microsofttranslator.com/],
-         @timeout = 230,
-         @response = @response output;
+    exec @ret = sp_invoke_external_rest_endpoint
+        @url = @url,
+        @method = 'POST',
+        @payload = @payload,
+        @credential = [https://api.cognitive.microsofttranslator.com/],
+        @timeout = 230,
+        @response = @response output;
 
-     print @response;
-     select json_value(D.[value], '$.text') as [Translation]
-     from openjson(@response, '$.result[0].translations') as D;
+    print @response;
+    select json_value(D.[value], '$.text') as [Translation]
+    from openjson(@response, '$.result[0].translations') as D;
     ```
 
 1. Then click the **Run** button on the query sheet.
@@ -641,7 +641,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
 
 ### Summary
 
-In this lab, you explored how to integrate Azure SQL Database with AI services using External REST Endpoint Invocation within Microsoft Fabric. You connected to Azure OpenAI for content generation, Content Safety for text analysis, and Translation services for language conversion. The core focus was implementing vector embeddings in the Adventure Works product database using Azure OpenAI, then performing semantic searches with the VECTOR_DISTANCE function to intelligently match natural language queries with relevant products. This exercise demonstrated how to leverage AI capabilities directly within your database environment, enabling sophisticated applications like RAG chatbots without moving data outside the database.
+In this exercise, you explored how to integrate Azure SQL Database with AI services using External REST Endpoint Invocation within Microsoft Fabric. You connected to Azure OpenAI for content generation, Content Safety for text analysis, and Translation services for language conversion. The core focus was implementing vector embeddings in the Adventure Works product database using Azure OpenAI, then performing semantic searches with the VECTOR_DISTANCE function to intelligently match natural language queries with relevant products. This exercise demonstrated how to leverage AI capabilities directly within your database environment, enabling sophisticated applications like RAG chatbots without moving data outside the database.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 

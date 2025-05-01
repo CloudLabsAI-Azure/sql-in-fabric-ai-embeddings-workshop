@@ -448,6 +448,7 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
     ![](../images/ex4-50.png)
 
     > **Note**: You can also get to the SQL analytics endpoint by clicking on your workspace tile, and selecting the SQL analytics endpoint on the bottom of the page.
+    
       ![](../images/ex4-51.png)
 
 1. On the SQL database analytics endpoint details page, click the **Reporting tab** from the ribbon.
