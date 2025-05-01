@@ -214,7 +214,7 @@ In this task, you’ll explore how to use **Copilot in the SQL query editor** wi
 
     ![](../images/ex2-41.png)
 
-1. You can press tab to Accept the code, or hover over the code with your mouse and click **Accept**.
+1. You can press tab to accept the code, or hover over the code with your mouse and click **Accept**.
 
     ![](../images/ex2-42.png)
 
