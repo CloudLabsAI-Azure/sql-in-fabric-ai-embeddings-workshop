@@ -5,24 +5,6 @@
 ## Overview
  
 In this lab, you will learn how to build an AI-powered product search system by integrating Microsoft Fabric's SQL capabilities with Azure OpenAI services. The lab guides you through creating a GraphQL API that leverages vector embeddings and relational data for semantic search and retrieval-augmented generation (RAG) applications. You will also explore how to enhance the API with Azure OpenAI's chat completion functionality to provide natural language responses. Finally, you will use Power BI and Copilot to create business intelligence reports, showcasing how the same database can serve both AI-driven applications and reporting needs.
- 
-## Objective
- 
-By the end of this lab, you will be able to:
-
-- Create and manage a SQL database in Microsoft Fabric.
-- Integrate Azure OpenAI services with SQL databases for embeddings, chat completions, and REST endpoint invocations.
-- Build a GraphQL API for semantic search using vector similarity and relational data.
-- Enhance the API with Azure OpenAI to generate natural language responses.
-- Use Power BI and Copilot to create interactive reports from SQL database data.
- 
-## Prerequisites
- 
-Participants should have:
-
-- **Familiarity with Azure**: Basic understanding of Azure services and the Azure portal.
-- **Knowledge of SQL**: Experience with writing and executing SQL queries.
-- **Basic Knowledge of Microsoft Fabric**: Understanding of Fabric concepts, including SQL databases and integration workflows.
 
 ## Architecture
 
