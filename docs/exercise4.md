@@ -435,7 +435,7 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
 ### Build a new report with Copilot
 
-1. In the navigator on the left side of the Microsoft Fabric page, **click the tile for your database**. It will be named **SqlDatabase<inject key="DeploymentID"></inject>**.
+1. In the navigator on the left side of the Microsoft Fabric page, **click the tile for your database**. It will be named **SqlDatabase<inject key="DeploymentID"> enableCopy="false"/>**.
 
     ![](../images/ex4-48.png)
 
