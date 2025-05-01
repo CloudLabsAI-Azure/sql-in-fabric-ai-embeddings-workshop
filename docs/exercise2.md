@@ -1,6 +1,6 @@
 # Exercise 2: Working with the Azure SQL Database in Microsoft Fabric
 
-In this next section of the workshop, you will explore Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric. Also, you will explore copilot integrated with Azure SQL Database Explorer.
+In this exercise, you will explore Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric. Also, you will explore copilot integrated with Azure SQL Database Explorer.
 
 ## Task 1: Introduction to Azure SQL Database 
 
@@ -299,7 +299,7 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
 ### Summary
 
-In this lab, you explored on Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.Also, you learned using copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
+In this exercise, you explored on Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.Also, you learned using copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
