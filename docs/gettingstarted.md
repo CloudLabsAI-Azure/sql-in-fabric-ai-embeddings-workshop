@@ -53,7 +53,7 @@ The architecture for this lab involves the following key components:
 - **Power BI:** Connects directly to the SQL database to create interactive reports and dashboards, enabling business users to visualize and analyze the same data used by AI applications.
 
 ## Getting Started with the Lab
-Welcome to Fabric OneLake as Central Storage Lab ! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
+Welcome to Developing AI Applications Using SQL Database in Microsoft Fabric Workshop! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
 > Note: If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
 
@@ -61,8 +61,7 @@ Welcome to Fabric OneLake as Central Storage Lab ! , We've prepared a seamless e
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../images/)
-
+![](../images/png5.png)
 
 ### Virtual Machine & Lab Guide
 
@@ -72,19 +71,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../images/environment.png)
+![](../images/png2.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-![](../images/nleg4.png)
+![](../images/png3.png)
 
 ## Managing Your Virtual Machine
 
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-![](../images/resources-vm-manage.png)
+![](../images/png4.png)
 
 ##  Lab Guide Zoom In/Zoom Out
 
