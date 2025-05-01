@@ -8,7 +8,7 @@ In this exercise, you will learn how to log into the Microsoft Fabric portal, cr
 
     ![](../images/ex1-1.png)
 
-3. Enter the workspace name as **FabricWorkspace<inject key="DeploymentID"></inject>**, then click or expand **Advanced** to assign the license mode for the Fabric workload.
+3. Enter the workspace name as **FabricWorkspace<inject key="DeploymentID"> enableCopy="false"/>**, then click or expand **Advanced** to assign the license mode for the Fabric workload.
 
     ![](../images/png6.png)
 
@@ -32,7 +32,7 @@ In this exercise, you will learn how to log into the Microsoft Fabric portal, cr
 
     >Note: There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately.
 
-1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID"></inject>**, then click the **Create** button to proceed with database creation.
+1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID"> enableCopy="false"/>**, then click the **Create** button to proceed with database creation.
 
     ![](../images/png9.png)
 
