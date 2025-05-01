@@ -26,57 +26,39 @@ In this section of the workshop, you will be logging into the Microsoft Fabric P
 
     ![](../images/ex1-7.png)
 
-1. In the **New item** blade on the right, 
+1. To create a SQL Database in Microsoft Fabric type **SQL** in the search bar, then scroll to the "Store data" section and select **SQL database (preview)**.
 
-    ![](../images/ex1-8.png)
-
-    use the **Filter by item type search box** in the upper right
-    
-    ![](../images/ex1-9.png)
-    
-    to enter **SQL**
-
-    ![](../images/ex1-10.png)
-
-1. With the New item results filtered down, click on the **SQL database (preview)** tile.
-
-    ![](../images/ex1-11.png)
+    ![](../images/png8.png)
 
     >Note: There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately.
 
-1. In the **New SQL database** dialog window,
+1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID"></inject>**, then click the **Create** button to proceed with database creation.
 
-    ![](../images/ex1-12.png)
+    ![](../images/png9.png)
 
-    Use a unique name as **SqlDatabase<inject key="DeploymentID"></inject>** **(1)** and click the green **Create** button.
-
-    ![](../images/ex1-13.png)
-
-1. Once the database is finished creating,
+1. Once the database has finished creating, you will be redirected to its home page, where you can view database objects and create T-SQL statements directly within the web browser.
 
     ![](../images/ex1-14.png)
-
-    you will be taken to that SQL database's home page where we can see database objects and create T-SQL statements right in the web browser.
 
     ![](../images/ex1-15.png)
 
 ## Task 3: Loading the SQL database with sample data
 
-1. We need some sample data in the database to work with. We can easily do this with the **Sample data** tile right on the database home page. Click the **Sample data** tile right on the database home page.
+1. To add sample data to the database, click the **Sample data** tile available on the SQL database home page. This allows you to quickly populate the database with predefined tables and data for testing and exploration.
 
     ![](../images/ex1-16.png)
 
-1. In the upper right corner of the database home page, you will see a notification indicating that the data is being loaded into the database.
+1. Once the sample data starts loading, a notification appears in the **upper right corner** of the database home page indicating that the process has started.
 
     ![](../images/ex1-17.png)
 
-1. Allow this process to run (about 30-60 seconds) until you see a notification in the upper right corner as **Successfully imported sample data** indicating that the data was successfully loaded into the database. 
+2. Allow this to run for about **30–60 seconds** until you see a notification stating **Successfully imported sample data**.
     
     ![](../images/ex1-18.png)
 
-    > Note: click on the **bell icon** if notification is hidden or not visible.
+    > **Note:** If the notification is hidden or not visible, click on the **bell icon** in the top-right corner to view it..
 
-1. Also, once the data has finished loading, the middle of home page will change show a **Query, preview, or connect your data** message and image.
+4. After the data is successfully loaded, the **middle of the home page** will update to display a **"Query, preview, or connect your data"** message along with an image.
 
     ![](../images/ex1-19.png)
 
