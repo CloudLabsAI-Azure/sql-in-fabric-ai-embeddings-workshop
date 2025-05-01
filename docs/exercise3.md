@@ -15,7 +15,7 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
 
 ### Task 1.1: Chat Completion
 
-1. Back in the query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
+1. Navigate to the query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
 
 1. Using an empty query sheet in Microsoft Fabric, copy and paste the following code:
 
