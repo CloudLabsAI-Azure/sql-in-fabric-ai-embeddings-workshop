@@ -26,11 +26,11 @@ In this exercise, you will learn how to create a new Fabric workspace, set up a 
 
     ![](../images/ex1-7.png)
 
-1. To create a SQL Database in Microsoft Fabric type **SQL** in the search bar, then scroll to the "Store data" section and select **SQL database (preview)**.
+1. To create a SQL Database in Microsoft Fabric, type **SQL** in the search bar, then scroll to the "Store data" section and select **SQL database (preview)**.
 
     ![](../images/png8.png)
 
-    >Note: There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately.
+    >**Note:** There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately.
 
 1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID" enableCopy="false"/>**, then click the **Create** button to proceed with database creation.
 
@@ -44,7 +44,7 @@ In this exercise, you will learn how to create a new Fabric workspace, set up a 
 
 ## Task 3: Loading the SQL database with sample data
 
-1. To add sample data to the database, click the **Sample data** tile available on the SQL database home page. This allows you to quickly populate the database with predefined tables and data for testing and exploration.
+1. To add sample data to the database, click the **Sample data** tile available on the SQL database home page.
 
     ![](../images/ex1-16.png)
 
