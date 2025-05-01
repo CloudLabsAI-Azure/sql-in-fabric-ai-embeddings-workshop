@@ -4,23 +4,24 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
 ## Task 1: Introduction to Azure SQL Database 
 
-1. To start, look at the **Database Explorer** area on the left of the page. Here, click the dropdown arrow next to the **SqlDatabase<inject key="DeploymentID"></inject>**. 
+This task guides you through navigating the database schema, previewing table data, running SQL queries, and working with query results in Azure SQL Database.
+
+
+1. In the **Database Explorer** pane on the left, click the dropdown arrow next to **SqlDatabase<inject key="DeploymentID"></inject>** to expand the database.
 
     ![](../images/ex2-1.png)
 
-    to see a list of database schemas.
-
     ![](../images/ex2-2.png)
 
-    and you can further expand the **SalesLT** schema to see object types.
+2. Expand the **SalesLT** schema to view its object types.
 
     ![](../images/ex2-3.png)
 
-    as well as objects in the object type folders.
+3. Expand the **Tables** folder to see the list of available tables.
 
     ![](../images/ex2-4.png)
 
-1. If not already done, expand the **SalesLT** schema, followed by expanding the **Tables** folder. Then click on the **Address** table.
+4. Click on the **Address** table to open a **read-only Data preview** in the editor.
 
     ![](../images/ex2-5.png)
 
@@ -28,79 +29,69 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
     ![](../images/ex2-6.png)
 
-1. After browsing the data in the Address table, **close** the Data preview by clicking on the **X** next to the **Address Data preview tab**.
+1. After browsing the data in the Address table, close the Data preview by clicking on the **X** next to the **Address Data preview tab**.
 
     ![](../images/ex2-7.png)
 
-1. Now, click the **New Query** button on the toolbar
-    
+1. Click the **New Query** button from the toolbar to open a new query editor tab.
+
     ![](../images/ex2-8.png)
 
-    to open a new query editor window so we can work directly with the database. 
-
-    ![](../images/ex2-9.png)
-
-1. To remove the grey **Copilot Preview Banner**, click the X on the right side.
+2. If a **Copilot Preview Banner** appears, close it by clicking the **X** on the right side of the banner.
 
     ![](../images/ex2-10.png)
 
-1. Once the banner is gone, be sure to click in the SQL editor sheet so that the next step will copy the code to the correct location.
+3. Click inside the query editor pane to make it active.
 
     ![](../images/ex2-9.png)
 
-1. Copy and paste the following code into the query editor:
+1. Copy and paste the following SQL statement into the query editor:
 
     ```
     select * from [SalesLT].[Product]
     ```
 
-1. Once the code is in the query editor, **click the Run button**.
+2. Click the **Run** button on the toolbar to execute the query.
 
     ![](../images/ex2-11.png)
 
-1. You will see the **results** of the query on the **bottom of the query editor**.
+3. View the query results displayed in the **Results** section at the bottom of the editor.
 
     ![](../images/ex2-12.png)
 
-1. Starting on the left side of the **Results area**, there are 3 options for exporting the data.
+1. After running a query, Azure SQL Database provides multiple options to export the results directly from the **Results** area at the bottom of the query editor:
 
-    ![](../images/ex2-13.png)
+    - **Download as Excel (.xlsx):** Click the Excel icon to export the results in a Microsoft Excel format.
 
-1. From left to right, first is **download results as .xlsx (Excel) file**.
+      ![](../images/ex2-14.png)
 
-    ![](../images/ex2-14.png)
+    - **Download as CSV (.csv):** Click the CSV icon to download the data in comma-separated values format, suitable for 
 
-1. Next, is **download as a .csv file**
+      ![](../images/ex2-15.png)
 
-    ![](../images/ex2-15.png)
+    - **Download as JSON (.json):** Click the JSON icon to export the results as a JSON file, ideal for integration with applications or APIs.
 
-1. With the last option being **download as a .json file**.
+      ![](../images/ex2-16.png)
 
-    ![](../images/ex2-16.png)
-
-1. And the right side of the results area, you can use the **Copy** button to copy the results in multiple formats.
+1. You can also use the **Copy** button on the right side of the results pane to copy data in various formats.
 
     ![](../media/2025-01-22_9.38.15_AM.png)
 
-1. Now, **refresh the browser page** by clicking the refresh icon on the Edge Browser toolbar.
+1. Refresh the browser by clicking the **refresh** icon on the Edge browser toolbar.
 
     ![](../images/ex2-17.png)
 
-1. The query editor you were working with is no longer in the main window
+2. After refreshing, if your query editor is no longer visible, you can reopen it from the **Queries** folder in the **Explorer** pane on the left.
 
     ![](../images/ex2-18.png)
 
-    but we can easily bring it back, or any other query editors we have been working with. We can do this by **clicking on the editor sheet name in Explorer** on the left side of the page in the **Queries folder**.
-
     ![](../media/2025-02-03_5.49.36_AM.png)
 
-1. Also, by **clicking on the 3 dots** next to a query editor sheet name, you can duplicate it, rename it, or delete it.
+3. Click the query name to reopen it. You can also click the **three dots** beside the name to duplicate, rename, or delete the query tab.
 
     ![](../images/ex2-19.png)
 
-1. To get ready for the next section, **Delete** any SQL you have in **the query editor** so that it is blank. Do not delete the entire query sheet.
-
-    ![](../images/ex2-20.png)
+1. Clear any existing SQL code from the query editor, leaving the editor sheet open and blank.
 
 ## Task 2: Copilot for the SQL Database in Microsoft Fabric
 
