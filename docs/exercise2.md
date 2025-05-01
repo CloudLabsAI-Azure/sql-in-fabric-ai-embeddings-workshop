@@ -93,29 +93,31 @@ This task guides you through navigating the database schema, previewing table da
 
 1. Clear any existing SQL code from the query editor, leaving the editor sheet open and blank.
 
-## Task 2: Copilot for the SQL Database in Microsoft Fabric
+## **Task 2: Using Copilot with SQL Database in Microsoft Fabric**
 
-Microsoft Copilot for SQL database in Fabric is an AI assistant designed to streamline your database tasks.
+Microsoft Copilot in Fabric is an AI-powered assistant designed to simplify and accelerate database tasks by enabling natural language interaction.
 
-### Copilot Chat
+### **Copilot Chat Overview**
 
-Use the chat pane to ask questions to Copilot through natural language. Copilot responds with a generated SQL query or natural language based on the question asked. 
+Copilot supports two primary interaction modes:
 
-- **Natural Language to SQL:** Generate T-SQL code from plain text requests, allowing users to query data without needing to know SQL syntax. 
+- **Natural Language to SQL**  
+  Convert plain language questions into valid T-SQL code to query your data—no SQL expertise required.
 
-- **Document-based Q&A:** Ask Copilot questions about general SQL database capabilities, and it responds in natural language. Copilot also helps find documentation related to your request.
+- **Document-Based Q&A**  
+  Ask about general SQL concepts or features; Copilot responds in natural language and may provide relevant documentation links.
 
 1. To use **Copilot chat**, click the **Copilot button** on the Database details homepage toolbar.
 
     ![](../images/ex2-21.png)
 
-1. On the right side of the page, you will see the **Copilot Chat pane**.
+2. This opens the **Copilot Chat pane** on the right-hand side.
 
-    ![](../images/ex2-22.png)
+   ![](../images/ex2-22.png)
 
-    Click the green **Get started button** on the bottom of the chat pane to continue.
+3. Click the **Get started** button at the bottom of the chat pane to begin.  
 
-    ![](../images/ex2-23.png)
+   ![](../images/ex2-23.png)
 
 1. Let's use one of the suggested questions that the chat pane has offered us. Click the **Get Insights: Retrieve the total number of tables in my database.** button. This will add the text "Retrieve the total number of tables in my database." in the chat box on the bottom of the Chat Pane.
 
@@ -125,33 +127,29 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-25.png)
 
-    and Copilot will start answering the question
+1. Copilot will process and return an answer, typically including a SQL query.
 
     ![](../images/ex2-26.png)
 
-1. Once the answer is returned by Copilot,
-
     ![](../images/ex2-27.png)
 
-    you can either **click the copy code button** and paste it into the query editor
+1. You can either click the **Copy Code** button to manually paste the SQL into the query editor, or use the **Insert Code** button to automatically add it to your active query editor tab. 
 
     ![](../images/ex2-28.png)
 
-    or click the **insert code button** to have it instantly pasted into the current active query editor sheet.
-
     ![](../images/ex2-29.png)
 
-1. Once the code is copied into the query editor, you **click the run button** it to see the results.
+1. Once the code is added to the query editor, click the **Run** button to execute it and view the results. 
 
     ![](../images/ex2-30.png)
 
-1. Try the following question suggestions in the chat pane and see the results. Feel free to run the SQL it provides from the answers, or just move on to the next question:
-
-    > Note: Copilot for SQL database in Microsoft Fabric is in **preview** and you may encounter unexpected results. If so, try the question again or move on to the next question.
+1. Try the following suggested questions in the Copilot chat pane and review the results. You can choose to run the generated SQL in the query editor or simply proceed to the next question.  
+ 
+    > **Note:** Copilot for SQL Database in Microsoft Fabric is currently in **preview**. You may occasionally encounter unexpected results if that happens, try rephrasing the question or move on to the next one.  
 
     > ![](../media/2025-01-30_9.43.24_AM.png) 
 
-    ##### **Performance and Database Questions**
+    ### **Performance and Database Questions**
 
     ```Question
     What table is using the most space?
@@ -165,7 +163,7 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-33.png)
 
-    ##### **Object Manipulation Questions**
+    ### **Object Manipulation Questions**
 
     ```Question
     Help me create a table to store AI chat history and code to insert some sample rows?
@@ -179,7 +177,7 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-35.png)
 
-    ##### **Documentation Questions**
+    ### **Documentation Questions**
 
     ```Question
     What is an append only ledger table?
@@ -193,20 +191,15 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-37.png)
 
-1. When done with the questions, you can **close the Copilot for SQL chat window** using the **X on the top right**.
+1. Once you’ve finished exploring the questions, close the **Copilot for SQL** chat window by clicking the **X** in the top-right corner of the pane.
 
     ![](../images/ex2-38.png)
 
-## Task 3: SQL Editor and Quick Actions
+## Task 3: Using SQL Editor and Quick Actions
 
-Start writing T-SQL in the SQL query editor and Copilot will automatically generate a code suggestion to help complete your query. The Tab key accepts the code suggestion or keeps typing to ignore the suggestion.
+In this task, you’ll explore how to use **Copilot in the SQL query editor** within Microsoft Fabric to write, fix, and explain T-SQL queries. You’ll also get hands-on with the **Fix** and **Explain** quick actions available in the editor.
 
-In the ribbon of the SQL query editor, the Fix and Explain options are quick actions. Highlight a SQL query of your choice and select one of the quick action buttons to perform the selected action on your query.
-
-- **Fix:** Copilot can fix errors in your code as error messages arise. Error scenarios can include incorrect/unsupported T-SQL code, wrong spellings, and more. Copilot will also provide comments that explain the changes and suggest SQL best practices.
-- **Explain:** Copilot can provide natural language explanations of your SQL query and database schema in a comments format.
-
-1. In an empty query editor, copy and paste the following code.
+1. In a **new blank SQL query editor tab**, enter the following comment:
 
     ```text
     -- list the top 5 colors of products
@@ -214,7 +207,7 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![](../images/ex2-39.png)
 
-1. Then **press enter/return_the end of the line of text** in the query editor. On the bottom of the query editor, you should see that **"Copilot is working on it..."**
+1. After typing the comment, **press Enter (or Return)** to move to a new line. At the bottom of the query editor, you should see the message:  **"Copilot is working on it..."**
 
     ![](../images/ex2-40.png)
 
@@ -222,25 +215,25 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![](../images/ex2-41.png)
 
-1. You can press tab to accept the code, or hover over the code with your mouse and click accept.
+1. You can press tab to Accept the code, or hover over the code with your mouse and click **Accept**.
 
     ![](../images/ex2-42.png)
 
-1. Once you accept the code, the color will change, indicating the code has been accepted
+1. Once you accept the code, the color will change, indicating the code has been accepted.
 
     ![](../images/ex2-43.png)
 
-    and you can run it with the run button in the query editor to see the results.
+1. You can run it with the **Run** button in the query editor to see the results.
 
     ![](../images/ex2-44.png)
 
-1. In an **empty query editor sheet**, try this example (remember to press return/enter after putting the statement in the query editor):
+1. Open another blank query editor tab, try this example (remember to press return/enter after putting the statement in the query editor):
 
     ```text
     -- show me the top 5 customers with the most orders and their address and the number of orders
     ```
 
-    it should provide you with code similar to the following (Remember to accept the results or press tab to accept the results):
+    Copilot should generate a query similar to: (Remember to accept the results or press tab to accept the results):
 
     ```SQL
     -- show me the top 5 customers with the most orders and their address and the number of orders
@@ -262,35 +255,35 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
     ORDER BY OrderCount DESC;
     ```
 
-1. Now, delete the **5 after the word TOP in the first line of code**. 
+1. Now **delete the number `5`** after `TOP`:
 
     ![](../images/ex2-45.png)
 
-    Then use the run button to execute the SQL query.
+1. Then, click the **Run** button to execute the SQL query and view the results.
 
-1. You should get an error on the bottom of the page in the messages pane stating "Msg 102, Level 15, State 1, Line 4, Incorrect syntax near 'C'."
+1. An error message should appear at the bottom of the page in the **Messages** pane, stating: **"Msg 102, Level 15, State 1, Line 4, Incorrect syntax near 'C'."**
 
     ![](../images/ex2-46.png)
 
-1. Back on the query editor toolbar. click the **Fix query errors** button.
+1. Back on the query editor toolbar, click the **Fix query errors** button.
 
     ![](../images/ex2-47.png)
 
-1. You will see that it added back the 5 and notated the error with how it fixed it.
+1. Copilot will correct the issue by restoring the missing `5` and will add a comment explaining the fix.
 
     ![](../images/ex2-48.png)
 
-1. Next, click the **Explain query button** on the query editor toolbar.
+1. Next, click the **Explain query** button in the toolbar. 
 
     ![](../images/ex2-49.png)
 
-1. This option annotates your code for you, adding comments outlining the purpose/function of each section.
+1. Copilot will annotate your SQL code with comments, describing the purpose and function of each part of the query.
 
     ![](../images/ex2-50.png)
 
 ### Summary
 
-In this exercise, you explored Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric. Also, you learned how to use Copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
+In this exercise, you used the **SQL query editor** in Microsoft Fabric and experienced how **Copilot assists with writing, correcting, and explaining SQL queries**. You also learned how to use **Fix** and **Explain** quick actions effectively.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
