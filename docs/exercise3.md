@@ -173,7 +173,7 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     select json_value(@response, '$.result.protectedMaterialAnalysis.detected') as "Protected Material Analysis";
     ```
         
-    > Note: Replace the highlighted lines with **Contentsafetyendpoint** URL copied in Step 3.
+    > **Note:** Replace the highlighted lines with **Contentsafetyendpoint** URL copied in Step 3.
 
 1. Click the **Run** button on the query sheet. The expected output should appear as shown below.
 
@@ -314,7 +314,7 @@ Embeddings created and stored in the Azure SQL Database in Microsoft Fabric duri
     
     For reference, the JSON response message from the Azure OpenAI embeddings endpoint will look similar to the following and, you can see how we extract the array found_**$.result.data[0].embedding**.
 
-    > Note: **This code is for reference only, do not use it as a SQL query** 
+    > **Note:** **This code is for reference only, do not use it as a SQL query** 
 
    ```JSON-Nocopy
     {
