@@ -36,7 +36,7 @@ This architecture leverages Microsoft Fabric to build an AI-powered application 
  
 The architecture for this lab involves the following key components:
 
-- **Microsoft Fabric Workspace:** The central environment where all resources—such as SQL databases, APIs, and reports—are created and managed.
+- **Microsoft Fabric Workspace:** The central environment where all resources such as SQL databases, APIs, and reports are created and managed.
 
 - **SQL Database (Fabric):** Serves as the primary data store, hosting structured product and business data used for both AI and analytics scenarios.
 
@@ -53,9 +53,10 @@ The architecture for this lab involves the following key components:
 - **Power BI:** Connects directly to the SQL database to create interactive reports and dashboards, enabling business users to visualize and analyze the same data used by AI applications.
 
 ## Getting Started with the Lab
-Welcome to Developing AI Applications Using SQL Database in Microsoft Fabric Workshop! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
-> Note: If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
+Welcome to the Developing AI Applications Using SQL Database in Microsoft Fabric Workshop! We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
+
+> **Note:** Once the environment is active, if a PowerShell window appears, **DO NOT CLOSE IT**. Please minimize the window and continue with the tasks as instructed.
 
 ## Accessing Your Lab Environment
 
@@ -117,7 +118,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the Lab.
 
-1. If a Welcome to Microsoft Azure popup window appears, click **Cancel** to skip the tour.
+1. If a Welcome to Microsoft Azure pop-up window appears, click **Cancel** to skip the tour.
 
     ![](../images/Azure-cancel-tour.png)
 
