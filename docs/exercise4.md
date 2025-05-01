@@ -495,11 +495,11 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
     ![](../images/ex4-61.png)
 
-1. Click the **Create button** for the **Order Details** report **or any other report** you would like to create.
+1. Click the **+ Create button** for the **Order Details** report **or any other report** you would like to create.
 
     ![](../images/ex4-62.png)
 
-1. Copilot will then begin **creating your report**.
+1. Copilot will then begin creating your report.
 
     ![](../images/ex4-63.png)
 
