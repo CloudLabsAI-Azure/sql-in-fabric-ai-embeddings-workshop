@@ -641,7 +641,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
 
 ### Summary
 
-In this exercise, you explored how to integrate Azure SQL Database with AI services using External REST Endpoint Invocation within Microsoft Fabric. You connected to Azure OpenAI for content generation, Content Safety for text analysis, and Translation services for language conversion. The core focus was implementing vector embeddings in the Adventure Works product database using Azure OpenAI, then performing semantic searches with the VECTOR_DISTANCE function to intelligently match natural language queries with relevant products. This exercise demonstrated how to leverage AI capabilities directly within your database environment, enabling sophisticated applications like RAG chatbots without moving data outside the database.
+In this exercise, you integrated Azure SQL Database with AI services in Microsoft Fabric, connecting to Azure OpenAI for content generation, Content Safety for text analysis, and Translation services for language conversion. The focus was on using vector embeddings in the Adventure Works product database with Azure OpenAI and performing semantic searches with the VECTOR_DISTANCE function, enabling AI-powered applications like RAG chatbots without moving data outside the database.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
