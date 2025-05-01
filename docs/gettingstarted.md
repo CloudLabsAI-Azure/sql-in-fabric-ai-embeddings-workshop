@@ -8,31 +8,23 @@ In this lab, you will learn how to build an AI-powered product search system by 
 
 ## Architecture
 
-This architecture leverages Microsoft Fabric to build an AI-powered application that integrates SQL database capabilities, Azure OpenAI services, and business intelligence reporting. The process begins with the creation of a Fabric workspace and SQL database, where sample product data is loaded and managed. Using Fabric’s SQL capabilities, vector embeddings are generated for product data via Azure OpenAI, enabling semantic search and retrieval-augmented generation (RAG) scenarios. Stored procedures and external REST endpoint invocations facilitate seamless integration with Azure OpenAI for tasks such as chat completion and content safety. A GraphQL API is then created to expose these AI-powered search and chat functionalities to downstream applications. Finally, Power BI and Copilot are used to generate interactive reports directly from the SQL database, demonstrating how the same data foundation supports both AI-driven applications and advanced analytics within the unified Fabric environment.
+The arc diagram for “Build an AI App with SQL DB in Fabric” illustrates the interconnected roles of four key components: GraphQL, SQL Database, Machine Learning Model, and Microsoft Fabric. At one end, GraphQL acts as the interface for data queries from the application. These queries retrieve or send data to the SQL Database, which stores and organizes structured data. The Machine Learning Model processes this data to generate intelligent insights. Microsoft Fabric ties everything together, enabling seamless data flow, orchestration, and deployment across the components, creating a unified and scalable AI application environment.
 
 ## Architecture Diagram
 
-![](../images/)
+![](../images/pngmain.png)
 
 ## Explanation of Components
  
 The architecture for this lab involves the following key components:
 
-- **Microsoft Fabric Workspace:** The central environment where all resources such as SQL databases, APIs, and reports are created and managed.
+1. **GraphQL** A query language that allows the frontend or API consumers to request exactly the data they need. In this context, it connects the application to backend services and facilitates efficient data queries from the AI layer or SQL database.
 
-- **SQL Database (Fabric):** Serves as the primary data store, hosting structured product and business data used for both AI and analytics scenarios.
+2. **Machine Learning Model** The core of the AI app, trained to perform tasks like recommendations, classification, or embeddings. It processes data (often coming from the SQL DB) and provides intelligent outputs that drive app features.
 
-- **Sample Data Loader:** A built-in tool to quickly populate the SQL database with sample datasets (e.g., Adventure Works), enabling hands-on experimentation.
+3. **SQL Database** Stores structured data used for both training machine learning models and serving insights. In Microsoft Fabric, this could be an integrated SQL endpoint that connects with other services like Data Factory or Synapse.
 
-- **Azure OpenAI Integration:** Provides advanced AI capabilities such as generating vector embeddings for semantic search, chat completions, and content safety, all accessible via REST endpoints.
-
-- **Stored Procedures:** Encapsulate business logic for vector similarity search and AI-powered queries, acting as the backend for the GraphQL API.
-
-- **GraphQL API:** Exposes the stored procedures and AI-powered search capabilities as endpoints, allowing external applications to perform semantic product search and chat interactions.
-
-- **Copilot:** An AI assistant integrated throughout Fabric, assisting with SQL queries, API creation, and Power BI report generation to streamline development and analytics tasks.
-
-- **Power BI:** Connects directly to the SQL database to create interactive reports and dashboards, enabling business users to visualize and analyze the same data used by AI applications.
+4. **Microsoft Fabric** The unified data platform by Microsoft that connects data ingestion, processing, and analysis services. It orchestrates the flow between the SQL database, the ML models, and application layers like GraphQL.
 
 ## Getting Started with the Lab
 
