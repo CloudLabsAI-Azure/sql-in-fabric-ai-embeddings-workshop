@@ -1,6 +1,6 @@
 # Exercise 1: Creating a Fabric Workspace and SQL Database
 
-In this exercise, you will learn how to log into the Microsoft Fabric portal, create a new Fabric workspace, set up a SQL database, and load sample data into the database.
+In this exercise, you will learn how to create a new Fabric workspace, set up a SQL database, and load sample data into the database.
 
 ## Task 1: Create the Microsoft Fabric Workspace
 
@@ -64,7 +64,7 @@ In this exercise, you will learn how to log into the Microsoft Fabric portal, cr
 
 ### Summary
 
-In this exercise, you learned how to create a workspace, create SQL database, and load sample data in SQL database.These steps gave you hands-on experience in setting up Workspace and SQL Database using Microsoft Fabric.
+In this exercise, you learned how to create a workspace, create a SQL database, and load sample data into the SQL database. These steps gave you hands-on experience setting up Workspace and SQL Database using Microsoft Fabric.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
