@@ -6,7 +6,7 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
 This task guides you through navigating the database schema, previewing table data, running SQL queries, and working with query results in Azure SQL Database.
 
-1. In the **Database Explorer** pane on the left, click the dropdown arrow next to **SqlDatabase<inject key="DeploymentID" enableCopy="false"/>>** to expand the database.
+1. In the **Database Explorer** pane on the left, click the dropdown arrow next to **SqlDatabase<inject key="DeploymentID" enableCopy="false"/>** to expand the database.
 
     ![](../images/ex2-1.png)
 
