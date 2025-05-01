@@ -24,7 +24,7 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
     ![](../images/ex2-5.png)
 
-1. You can see in the editor window, a read only **Data preview** of the contents of the Address table.
+1. You can see in the editor window, a read-only **Data preview** of the contents of the Address table.
 
     ![](../images/ex2-6.png)
 
@@ -32,7 +32,7 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
     ![](../images/ex2-7.png)
 
-1. Now, click the **New Query** button on the tool bar
+1. Now, click the **New Query** button on the toolbar
     
     ![](../images/ex2-8.png)
 
@@ -40,7 +40,7 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
     ![](../images/ex2-9.png)
 
-1. To remove the gray **Copilot Preview Banner**, click the X on the right side.
+1. To remove the grey **Copilot Preview Banner**, click the X on the right side.
 
     ![](../images/ex2-10.png)
 
@@ -78,7 +78,7 @@ In this exercise, you will explore Azure SQL Database Explorer and SQL Query wor
 
     ![](../images/ex2-16.png)
 
-1. And looking_the right side of the results area, you can use the **Copy** button to copy the results in multiple formats.
+1. And the right side of the results area, you can use the **Copy** button to copy the results in multiple formats.
 
     ![](../media/2025-01-22_9.38.15_AM.png)
 
@@ -122,7 +122,7 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-22.png)
 
-    click the green **Get started button** on the bottom of the chat pane to continue.
+    Click the green **Get started button** on the bottom of the chat pane to continue.
 
     ![](../images/ex2-23.png)
 
@@ -154,7 +154,7 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 
     ![](../images/ex2-30.png)
 
-1. Try the following question suggestions in the chat pane and see the results. Feel free to run the SQL it provides from the answers or just move on to the next question:
+1. Try the following question suggestions in the chat pane and see the results. Feel free to run the SQL it provides from the answers, or just move on to the next question:
 
     > Note: Copilot for SQL database in Microsoft Fabric is in **preview** and you may encounter unexpected results. If so, try the question again or move on to the next question.
 
@@ -213,7 +213,7 @@ Start writing T-SQL in the SQL query editor and Copilot will automatically gener
 In the ribbon of the SQL query editor, the Fix and Explain options are quick actions. Highlight a SQL query of your choice and select one of the quick action buttons to perform the selected action on your query.
 
 - **Fix:** Copilot can fix errors in your code as error messages arise. Error scenarios can include incorrect/unsupported T-SQL code, wrong spellings, and more. Copilot will also provide comments that explain the changes and suggest SQL best practices.
-- **Explain:** Copilot can provide natural language explanations of your SQL query and database schema in comments format.
+- **Explain:** Copilot can provide natural language explanations of your SQL query and database schema in a comments format.
 
 1. In an empty query editor, copy and paste the following code.
 
@@ -231,11 +231,11 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![](../images/ex2-41.png)
 
-1. You can press tab to accept the code or hover over the code with your mouse and click accept.
+1. You can press tab to accept the code, or hover over the code with your mouse and click accept.
 
     ![](../images/ex2-42.png)
 
-1. Once you accept the code, the color will change indicating the code has been accepted
+1. Once you accept the code, the color will change, indicating the code has been accepted
 
     ![](../images/ex2-43.png)
 
@@ -293,13 +293,13 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![](../images/ex2-49.png)
 
-1. This option annotates your code for you adding comments outlining the purpose/function of each section.
+1. This option annotates your code for you, adding comments outlining the purpose/function of each section.
 
     ![](../images/ex2-50.png)
 
 ### Summary
 
-In this exercise, you explored on Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.Also, you learned using copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
+In this exercise, you explored Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric. Also, you learned how to use Copilot integrated with Azure SQL Database Explorer. These steps gave you hands-on experience in Azure SQL Database Explorer and SQL Query worksheets in Microsoft Fabric.
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
