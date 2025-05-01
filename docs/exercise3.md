@@ -36,9 +36,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
     go
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy **Openaiendpoint (1)** and **OpenAIkey (2)**.
+1. Select the **Environment** tab beside your lab guide, copy **Openaiendpoint** and **OpenAIkey**.
 
-    ![](../images/ex3-2.png)
+    ![](../images/png12.png)
 
 1. Paste the values copied in the place of highlighted lines, which are the credentials of Openai resource.
 
@@ -102,9 +102,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
     go
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy **Contentsafetyendpoint (1)**, **ContentSafetyKey(2)** and **Region (3)**.
+1. Select the **Environment** tab beside your lab guide, copy **Contentsafetyendpoint**, **ContentSafetyKey** and **Region**.
 
-    ![](../images/ex3-7.png)
+    ![](../images/png13.png)
 
 1. Paste the values copied in the place of highlighted lines which are the credentials of Content Safety resource.
 
@@ -175,7 +175,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
         
     > Note: Replace the highlighted lines with **Contentsafetyendpoint** URL copied in Step 3.
 
-      ![](../images/ex3-10.png)  
+1. Click the **Run** button on the query sheet. The expected output should appear as shown below.
+
+    ![](../images/png10.png)
 
 1. Next, we use AI Translation.
 
@@ -193,9 +195,9 @@ In this first section, you will test the External REST Endpoint Invocation (EREI
     go
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy **TranslatorKey (1)** and **Region (2)**.
+1. Select the **Environment** tab beside your lab guide, copy **TranslatorKey** and **Region**.
 
-    ![](../images/ex3-14-1.png)
+    ![](../images/png14.png)
 
 1. Paste the values copied in the place of highlighted lines, which are the credentials of the Translator resource.
 

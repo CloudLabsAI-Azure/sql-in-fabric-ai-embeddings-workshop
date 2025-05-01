@@ -227,7 +227,9 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     GO
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy only **Openaiendpoint (1)**.
+1. Select the **Environment** tab beside your lab guide, copy only **Openaiendpoint**.
+
+    ![](../images/png11.png)
 
 1. Paste the values copied in the place of highlighted lines which are the credentials of OpenAI resource.
 
