@@ -4,7 +4,7 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
 
 ## Task 1: Creating the stored procedure used by the GraphQL API
 
-1. Back in the query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
+1. Navigate to query sheet, **remove the previous code** by highlighting it and pressing delete/backspace.
 
 1. Using an empty query sheet in Microsoft Fabric, copy and paste the following code:
 
@@ -105,7 +105,7 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
 
     ![](../images/ex4-7.png)
 
-1. After naming the API, click the green **Create** button.
+1. After naming the API, click the **Create** button.
 
     ![](../images/ex4-8.png)
 
@@ -121,11 +121,11 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
 
     ![](../images/ex4-11.png)
 
-1. Choose the **find_products_api stored procedure in the results**. You can ensure it is the find_products_api stored procedure by hovering over it with your mouse/pointer. It will also indicate the selected database item in the preview section. It should state **"Preview data: dbo.find_products_api"**.
+1. Select the **find_products_api stored procedure** from the search results. To confirm you’ve selected the correct one, hover over it with your mouse. The **Preview section** will display the selected database item, showing **"Preview data: dbo.find_products_api"**.
 
     ![](../images/ex4-12.png)
 
-1. Once you have selected the **find_products_api stored procedure**, click the green **Load** button on the bottom right of the modal dialog box.
+1. Once you have selected the **find_products_api stored procedure**, click **Load** button on the bottom right of the modal dialog box.
 
     ![](../images/ex4-19.png)
 
@@ -152,7 +152,7 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
 
     ![](../images/ex4-21.png)
 
-1. Now, click the **Run button** in the upper left of the GraphQL query editor. 
+1. Now, click the **Run** button in the upper left of the GraphQL query editor. 
 
     ![](../images/ex4-22.png)
 
@@ -160,7 +160,7 @@ In this section of the lab, you will be deploying a GraphQL API that uses embedd
 
     ![](../images/ex4-23.png)
 
-1. Back on the toolbar, find and click the **Generate code button**.
+1. Back on the toolbar, find and click the **Generate code** button.
 
     ![](../images/ex4-24.png)
 
@@ -178,7 +178,7 @@ The API you just created could now be handed off to an application developer to 
 
 Let's alter the stored procedure to create a new flow that not only uses vector similarity search to get products based on a question asked by a user, but to take the results, pass them to Azure OpenAI Chat Completion, and craft an answer they would typically see with an AI chat application.
 
-1. Before we can start creating new stored procedures, we need to go back to the SQL Database home page. Do this by using the navigator on the left side of the page and clicking on the **SQL Database** icon.
+1. To begin creating new stored procedures, return to the **SQL Database** home page. Use the navigator on the left side of the page and click the **SQL Database** icon.
 
     ![](../images/ex4-27.png)
 
@@ -186,7 +186,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     Using an empty query sheet in Microsoft Fabric, copy and paste the following code:
 
-     ```SQL
+    ```SQL
     CREATE OR ALTER PROCEDURE [dbo].[prompt_answer]
     @user_question nvarchar(max),
     @products nvarchar(max),
@@ -225,11 +225,9 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     select json_value(@response, '$.result.choices[0].message.content');
 
     GO
-     ```
+    ```
 
 1. Select the **Environment** tab beside your lab guide, copy only **Openaiendpoint (1)**.
-
-    ![](../images/ex3-2.png)
 
 1. Paste the values copied in the place of highlighted lines which are the credentials of OpenAI resource.
 
@@ -272,8 +270,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
 1. Copy and run the following SQL in a blank query editor in Microsoft Fabric:
 
-
-     ```SQL
+    ```SQL
     create or alter procedure [dbo].[find_products_chat]
     @text nvarchar(max),
     @top int = 3,
@@ -324,7 +321,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     exec [dbo].[prompt_answer] @text, @products_json, @answer output;
 
     GO
-     ```
+    ```
 
 1. Click on **Run** button on the query sheet.
 
@@ -376,7 +373,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     ![](../images/ex4-38.png)
 
-1. After naming the API, click the green **Create** button.
+1. After naming the API, click the **Create** button.
 
     ![](../images/ex4-39.png)
 
@@ -396,7 +393,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     ![](../images/ex4-43.png)
 
-1. Once you have selected the **find_products_chat_api stored procedure**, click the **green Load button** on the bottom right of the modal dialog box.
+1. Once you have selected the **find_products_chat_api stored procedure**, click the **Load button** on the bottom right of the modal dialog box.
 
     ![](../images/ex4-44.png)
 
@@ -436,7 +433,7 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
 ### Build a new report with Copilot
 
-1. Using the navigator on the left side of the Microsoft Fabric page, **click the tile for your database**. It will be named **sqlDatabase followed by a set of numbers**.
+1. In the navigator on the left side of the Microsoft Fabric page, **click the tile for your database**. It will be named **SqlDatabase<inject key="DeploymentID"></inject>**.
 
     ![](../images/ex4-48.png)
 
@@ -444,14 +441,14 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
     ![](../images/ex4-49.png)
 
-1. Click the SQL database dropdown and select **SQL analytics endpoint**.
+1. Click the **SQL database dropdown** and select **SQL analytics endpoint**.
 
     ![](../images/ex4-50.png)
 
     > **Note**: You can also get to the SQL analytics endpoint by clicking on your workspace tile, and selecting the SQL analytics endpoint on the bottom of the page.
       ![](../images/ex4-51.png)
 
-1. On the SQL database analytics endpoint details page, **click the Reporting tab** from the ribbon.
+1. On the SQL database analytics endpoint details page, click the **Reporting tab** from the ribbon.
 
     ![](../images/ex4-52.png)
 
@@ -459,21 +456,21 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
     ![](../images/ex4-53.png)
 
-1. When the **New report with all available data modal window** opens, click the green **Continue** button to create a new report with all available data.
+1. When the **New report with all available data modal** dialog opens, click the **Continue** button to create a new report with all available data.
 
     ![](../images/ex4-54.png)
 
-    > **Note:** If you get an error after clicking the green Continue button saying: **"Unable to add the selected objects because_least one of them has been removed from the source. Please refresh and try again."**, Close the dialog box and reopen it. Then, click the green Continue button again.
+    > **Note:** If you get an error after clicking the Continue button saying: **"Unable to add the selected objects because_least one of them has been removed from the source. Please refresh and try again."**, Close the dialog box and reopen it. Then, click the Continue button again.
 
-1. The **Upgrade to a paid Power BI license** modal window will appear next. Click on the white **Try free** button.
+1. The **Upgrade to a paid Power BI license** modal window will appear next. Click on **Try free** button.
 
     ![](../images/ex4-55.png)
 
-1. Confirm the free license on the following model by clicking the green **Got it** button.
+1. Confirm the free license on the following model by clicking the **Got it** button.
 
     ![](../images/ex4-56.png)
 
-1. Once the new report opens in Power BI, click the **Try it** button in the green callout box with title **Create a report with Copilot**.
+1. Once the new report opens in Power BI, click the **Try it** button in the callout box with title **Create a report with Copilot**.
 
     ![](../images/ex4-57.png)
 
@@ -481,7 +478,7 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
     ![](../images/ex4-58.png)
 
-1. Click the green **Get started** button.
+1. Click the **Get started** button.
 
     ![](../images/ex4-59.png)
 
@@ -515,6 +512,6 @@ It's easy to quickly create reports in Power BI with SQL database in Fabric usin
 
 ### Summary
 
-In this lab, you created a GraphQL API for RAG (Retrieval-Augmented Generation) applications by leveraging Microsoft Fabric's SQL capabilities with vector embeddings. You first built a stored procedure to perform vector similarity search on Adventure Works products, then wrapped it in a GraphQL endpoint to enable application integration. You later enhanced this solution by adding Azure OpenAI's chat completion functionality, creating a more sophisticated endpoint that not only retrieves relevant products but also formulates natural language responses to customer queries. The exercise concluded with creating a Power BI report using Copilot, demonstrating how the same database can be used for both AI-powered search and business intelligence reporting. This lab showcases how to combine vector search, relational data, and LLMs to build practical AI applications for product search and recommendation.
+In this lab, you created a GraphQL API for RAG (Retrieval-Augmented Generation) applications using Microsoft Fabric's SQL capabilities with vector embeddings. You built a stored procedure for vector similarity search on Adventure Works products, integrated it into a GraphQL endpoint, and enhanced it with Azure OpenAI's chat completion for natural language responses. Finally, you created a Power BI report using Copilot, demonstrating how the same database supports both AI-powered search and business intelligence. This lab highlights combining vector search, relational data, and LLMs for AI-driven product search and recommendations.
 
 ### You have successfully completed the lab!!
