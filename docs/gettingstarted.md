@@ -84,6 +84,8 @@ For convenience, you can open the lab guide in a separate window by selecting th
 
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
+![](../images/resources-vm-manage.png)
+
 ##  Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
@@ -94,17 +96,17 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 1. In the JumpVM, click on **Azure portal** shortcut of Microsoft Edge browser which is created on desktop.
 
-![](../images/)
+![](../images/open-azure-portal.png)
 
 1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
 
-    - Email/Username: 
+    - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
     ![](../images/image-006.png)
 
 1. Now, enter the following password and click on **Sign in**.
 
-    - Password: 
+    - Password: <inject key="AzureAdUserPassword"></inject> 
 
     ![](../images/image-005.png)
 
