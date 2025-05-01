@@ -376,7 +376,8 @@ Embeddings created and stored in the Azure SQL Database in Microsoft Fabric duri
     }
    ```
 
-    This JSON vector array can now be used with new vector datatype and functions in the Azure SQL database such as VECTOR_DISTANCE. 
+
+    > This JSON vector array can now be used with new vector datatype and functions in the Azure SQL database such as VECTOR_DISTANCE. 
 
 
 ### Task 2.3: Preparing the database and creating embeddings
@@ -611,6 +612,7 @@ You will be using this function in some upcoming samples as well as in the RAG c
     | Sport-100 Helmet, Red |Sport-100 Helmet, Red Red Helmets Sport-100 Universal fit, well-vented, lightweight , snap-on visor. | 0.16508593401632166 |
     | Sport-100 Helmet, Blue |Sport-100 Helmet, Blue Blue Helmets Sport-100 Universal fit, well-vented, lightweight , snap-on visor. | 0.16592580751312624 |
     | Classic Vest, S | Classic Vest, S Blue Vests Classic Vest Light-weight, wind-resistant, packs to fit into a pocket. | 0.19888204151269384 |
+
 
 
     ![](../images/ex3-37.png)

@@ -92,7 +92,7 @@ In this next section of the workshop, you will explore Azure SQL Database Explor
 
     but we can easily bring it back, or any other query editors we have been working with. We can do this by **clicking on the editor sheet name in Explorer** on the left side of the page in the **Queries folder**.
 
-    <img alt="A picture of clicking on the editor sheet name in Explorer on the left side of the page in the Queries folder" src="../media/2025-02-03_5.49.36_AM.png" style="width:600px;">
+    ![](../media/2025-02-03_5.49.36_AM.png)
 
 1. Also, by **clicking on the 3 dots** next to a query editor sheet name, you can duplicate it, rename it, or delete it.
 
@@ -157,6 +157,7 @@ Use the chat pane to ask questions to Copilot through natural language. Copilot 
 1. Try the following question suggestions in the chat pane and see the results. Feel free to run the SQL it provides from the answers or just move on to the next question:
 
     > Note: Copilot for SQL database in Microsoft Fabric is in **preview** and you may encounter unexpected results. If so, try the question again or move on to the next question.
+
     > ![](../media/2025-01-30_9.43.24_AM.png) 
 
     ##### **Performance and Database Questions**
@@ -222,7 +223,7 @@ In the ribbon of the SQL query editor, the Fix and Explain options are quick act
 
     ![](../images/ex2-39.png)
 
-1. Then **press enter/return_the end of the line of text** in the query editor. On the bottom of the query editor, you should see that **"Copilot is working on it..."***
+1. Then **press enter/return_the end of the line of text** in the query editor. On the bottom of the query editor, you should see that **"Copilot is working on it..."**
 
     ![](../images/ex2-40.png)
 
