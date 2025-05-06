@@ -74,13 +74,13 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    https://app.fabric.microsoft.com/home
    ```
 
-2. On the **Enter your email, we'll check if you need to create a new account** tab you will see the login screen, in that enter the following email/username, and click on **Submit**.
+2. On the **Enter your email, we'll check if you need to create a new account** tab you will see the login screen, in that enter the following **email/username** (1), and click on **Submit** (2).
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
      ![alt text](image.png)
  
-3. Now enter the following password and click on **Sign in**.
+3. Now enter the following **Password** (1) and click on **Sign in** (2).
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
