@@ -328,7 +328,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 1. The last step before we can create a new GraphQL endpoint is to wrap the new find products stored procedure. Copy and run the following SQL in a blank query editor in Microsoft Fabric:
 
 
-    ```SQL
+```SQL
       create or alter procedure 
       [find_products_chat_api]
           @text nvarchar(max)
@@ -341,7 +341,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
               )
           )
       GO
-    ```
+```
 
 1. Click on **Run** button on the query sheet.
 
