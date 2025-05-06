@@ -36,14 +36,6 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     go
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy **Openaiendpoint** and **OpenAIkey**.
-
-    ![](../images/png12.png)
-
-1. Paste the values copied in the place of highlighted lines, which are the credentials of Openai resource.
-
-    ![](../images/ex3-1.png)
-
 1. Click on **Run** button on the query sheet.
 
     ![](../images/ex3-3.png)
@@ -72,9 +64,7 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
         
     select json_value(@response, '$.result.choices[0].message.content') as "Amazing, Awesome, Stupendous Joke";
     ```
-1. Paste the **Openaiendpoint** URL copied in Step 3 in the highlighted lines.
 
-    ![](../images/ex3-4.png)
 
 1. Click on **Run** button on the query sheet.
 
@@ -101,14 +91,6 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     end
     go
     ```
-
-1. Select the **Environment** tab beside your lab guide, copy **Contentsafetyendpoint**, **ContentSafetyKey** and **Region**.
-
-    ![](../images/png13.png)
-
-1. Paste the values copied in the place of highlighted lines which are the credentials of Content Safety resource.
-
-    ![](../images/ex3-7-1.png)
 
 1. Then click the **Run** button on the query sheet.
 
@@ -141,10 +123,6 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     from openjson(@response, '$.result.categoriesAnalysis') as D;
     ```
 
-1. Paste the **Contentsafetyendpoint** URL copied in Step 3 in the highlighted lines.
-
-    ![](../images/ex3-10.png)
-
 1. Then click the **Run** button on the query sheet.
 
     ![](../images/ex3-11.png)
@@ -173,7 +151,7 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     select json_value(@response, '$.result.protectedMaterialAnalysis.detected') as "Protected Material Analysis";
     ```
         
-    > **Note:** Replace the highlighted lines with **Contentsafetyendpoint** URL copied in Step 3.
+
 
 1. Click the **Run** button on the query sheet. The expected output should appear as shown below.
 
@@ -195,13 +173,6 @@ In this exercise, you will test the External REST Endpoint Invocation (EREI) fea
     go
     ```
 
-1. Select the **Environment** tab beside your lab guide, copy **TranslatorKey** and **Region**.
-
-    ![](../images/png14.png)
-
-1. Paste the values copied in the place of highlighted lines, which are the credentials of the Translator resource.
-
-    ![](../images/ex3-13.png)
 
 1. Then click the **Run** button on the query sheet.
 
@@ -300,9 +271,6 @@ Embeddings created and stored in the Azure SQL Database in Microsoft Fabric duri
 
     select json_query(@response, '$.result.data[0].embedding') as "JSON Vector Array";
     ```
-1. Paste the **Openaiendpoint** URL copied in Step 3 in the highlighted lines.
-
-    ![](../images/ex3-21.png)
 
 1. Again, click the **Run** button on the query sheet. The result will be a JSON vector array.
 
@@ -442,9 +410,6 @@ This next section of the lab will have you alter the Adventure Works product tab
     END;
     ```
 
-1. Paste the **Openaiendpoint** URL copied in Step 3 in the highlighted lines.
-
-    ![](../images/ex3-25.png)
 
 1. Click the **Run** button on the query sheet to create the procedure in the database.
 
