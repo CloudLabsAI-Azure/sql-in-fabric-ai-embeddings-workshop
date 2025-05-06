@@ -64,7 +64,7 @@ This task guides you through navigating the database schema, previewing table da
 
       ![](../images/ex2-14.png)
 
-    - **Download as CSV (.csv):** Click the CSV icon to download the data in comma-separated values format, suitable for 
+    - **Download as CSV (.csv):** Click the CSV icon to download the data in comma-separated values format, suitable for read only Microsoft Excel sheet.
 
       ![](../images/ex2-15.png)
 
@@ -74,7 +74,7 @@ This task guides you through navigating the database schema, previewing table da
 
 1. You can also use the **Copy** button on the right side of the results pane to copy data in various formats.
 
-    ![](../media/2025-01-22_9.38.15_AM.png)
+    ![](../images/ex2-51.png)
 
 1. Refresh the browser by clicking the **refresh** icon on the Edge browser toolbar.
 
@@ -84,7 +84,7 @@ This task guides you through navigating the database schema, previewing table da
 
     ![](../images/ex2-18.png)
 
-    ![](../media/2025-02-03_5.49.36_AM.png)
+    ![](../images/ex2-52.png)
 
 3. Click the query name to reopen it. You can also click the **three dots** beside the name to duplicate, rename, or delete the query tab.
 
@@ -92,7 +92,7 @@ This task guides you through navigating the database schema, previewing table da
 
 1. Clear any existing SQL code from the query editor, leaving the editor sheet open and blank.
 
-## **Task 2: Using Copilot with SQL Database in Microsoft Fabric**
+## Task 2: Using Copilot with SQL Database in Microsoft Fabric
 
 Microsoft Copilot in Fabric is an AI-powered assistant designed to simplify and accelerate database tasks by enabling natural language interaction.
 
@@ -146,7 +146,7 @@ Copilot supports two primary interaction modes:
  
     > **Note:** Copilot for SQL Database in Microsoft Fabric is currently in **preview**. You may occasionally encounter unexpected results if that happens, try rephrasing the question or move on to the next one.  
 
-    > ![](../media/2025-01-30_9.43.24_AM.png) 
+    > ![](../images/ex2-53.png) 
 
     ### **Performance and Database Questions**
 
@@ -260,7 +260,7 @@ In this task, you’ll explore how to use **Copilot in the SQL query editor** wi
 
 1. Then, click the **Run** button to execute the SQL query and view the results.
 
-1. An error message should appear at the bottom of the page in the **Messages** pane, stating: **"Msg 102, Level 15, State 1, Line 4, Incorrect syntax near 'C'."**
+1. An error message should appear at the bottom of the page in the **Messages** pane, stating: **"Msg 102, Level 15, State 1, Line 4, Incorrect syntax near 'C'."** which is expected.
 
     ![](../images/ex2-46.png)
 
