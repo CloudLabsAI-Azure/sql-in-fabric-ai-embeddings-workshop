@@ -227,7 +227,6 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
     GO
     ```
 
-
 1. Click on **Run** button on the query sheet.
 
     ![](../images/ex4-29.png)
@@ -330,19 +329,20 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
 
     ```SQL
-    create or alter procedure 
-    [find_products_chat_api]
-        @text nvarchar(max)
-        as 
-        exec find_products_chat @text
-        with RESULT SETS
-        (    
-            (    
-                answer NVARCHAR(max)
-            )
-        )
-    GO
+      create or alter procedure 
+      [find_products_chat_api]
+          @text nvarchar(max)
+          as 
+          exec find_products_chat @text
+          with RESULT SETS
+          (    
+              (    
+                  answer NVARCHAR(max)
+              )
+          )
+      GO
     ```
+
 1. Click on **Run** button on the query sheet.
 
     ![](../images/ex4-35.png)
