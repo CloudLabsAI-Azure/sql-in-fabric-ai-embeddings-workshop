@@ -8,11 +8,11 @@ In this exercise, you will learn how to create a new Fabric workspace, set up a 
 
     ![](../images/ex1-1.png)
 
-3. Enter the workspace name as **FabricWorkspace<inject key="DeploymentID" enableCopy="false"/>**, then click or expand **Advanced** to assign the license mode for the Fabric workload.
+3. Enter the workspace name as **FabricWorkspace<inject key="DeploymentID" enableCopy="false"/>** (1), then click or expand **Advanced** (2) to assign the license mode for the Fabric workload.
 
     ![](../images/png6.png)
 
-4. Choose **Fabric capacity** and select the available Capacity from the dropdown list then click **Apply**. 
+4. Choose **Fabric capacity** (1) and select the available **Capacity** (3) from the dropdown list then click **Apply** (3). 
 
     ![](../images/png7.png)
 
@@ -26,13 +26,13 @@ In this exercise, you will learn how to create a new Fabric workspace, set up a 
 
     ![](../images/ex1-7.png)
 
-1. To create a SQL Database in Microsoft Fabric, type **SQL** in the search bar, then scroll to the "Store data" section and select **SQL database (preview)**.
+1. To create a SQL Database in Microsoft Fabric, type **SQL** (1) in the search bar, then scroll to the "Store data" section and select **SQL database (preview)** (2).
 
     ![](../images/png8.png)
 
     >**Note:** There may be a delay after pressing the **SQL database (preview) tile** and when the **New SQL database modal** appears. Just give it a few seconds if it does not appear immediately.
 
-1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID" enableCopy="false"/>**, then click the **Create** button to proceed with database creation.
+1. In the **New SQL database** dialog window, enter the name as **SqlDatabase<inject key="DeploymentID" enableCopy="false"/>** (1), then click the **Create** (2) button to proceed with database creation.
 
     ![](../images/png9.png)
 
