@@ -174,7 +174,7 @@ In this exercise, you will deploy a GraphQL API that combines embeddings, vector
 
 ## Task 2: Adding chat completion to the GraphQL API
 
-The API you just created could now be handed off to an application developer to be included in a RAG application that uses vector similarity search and data from the database. The application may also_some point hand the results off to a LLM to craft a more human response. 
+The API you just created could now be handed off to an application developer to be included in a RAG application that uses vector similarity search and data from the database. The application may also at some point hand the results off to a LLM to craft a more human response. 
 
 Let's alter the stored procedure to create a new flow that not only uses vector similarity search to get products based on a question asked by a user, but to take the results, pass them to Azure OpenAI Chat Completion, and craft an answer they would typically see with an AI chat application.
 
@@ -194,7 +194,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     AS
 
-    declare @url nvarchar(4000) = N'https://AI_ENDPOINT_SERVERNAME.openai.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-06-01';
+    declare @url nvarchar(4000) = N'<inject key="openaiendpoint"></inject>openai/deployments/gpt-4/chat/completions?api-version=2024-06-01';
     declare @payload nvarchar(max) = N'{
         "messages": [
             {
@@ -218,7 +218,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
         @url = @url,
         @method = 'POST', 
         @payload = @payload,
-        @credential = [https://AI_ENDPOINT_SERVERNAME.openai.azure.com/],    
+        @credential = [<inject key="openaiendpoint"></inject>],    
         @timeout = 230,
         @response = @response output;
 
@@ -243,7 +243,7 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
     ![](../images/ex4-30.png)
 
-1. Now that you have created the chat completion stored procedure, we need to create a new find_products stored procedure that adds a call to this chat completion endpoint. This new stored procedure contains 1 additional step that were not found in the original: 
+1. Now that you have created the chat completion stored procedure, we need to create a new find_products stored procedure that adds a call to this chat completion endpoint. This new stored procedure contains 1 additional step that was not found in the original: 
     
     A section to help package up the results into something we can use in a prompt.
     
@@ -337,18 +337,18 @@ Let's alter the stored procedure to create a new flow that not only uses vector 
 
 
     ```  SQL
-        create or alter procedure 
-        [find_products_chat_api]
-            @text nvarchar(max)
-            as 
-            exec find_products_chat @text
-            with RESULT SETS
-            (    
-                (    
-                    answer NVARCHAR(max)
-                )
-            )
-        GO
+     create or alter procedure 
+     [find_products_chat_api]
+         @text nvarchar(max)
+         as 
+         exec find_products_chat @text
+         with RESULT SETS
+         (    
+             (    
+                 answer NVARCHAR(max)
+             )
+         )
+     GO
     ```
 1. Click on **Run** button on the query sheet.
 
